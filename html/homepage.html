@@ -1,0 +1,20 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+    <h1>Furry Friends Finder</h1>
+
+    <img src= "https://hips.hearstapps.com/ghk.h-cdn.co/assets/16/08/gettyimages-147786673.jpg" />
+    
+
+    <form action="/get-name">
+      <div>
+        <label for="namefield">User Name</label>
+        <input id="namefield" type="text" name="name" required />
+      </div>
+      <div>
+        <input type="submit" />
+      </div>
+    </form>
+
+{% endblock %}
