@@ -2,6 +2,7 @@ import os
 petfinder_api_key= os.environ["PETFINDER_API_KEY"]
 
 from flask import Flask, render_template, request, flash, session, redirect
+from random import choice, randint
 from model import connect_to_db
 import crud
 
@@ -13,10 +14,12 @@ app.jinja_env.undefined = StrictUndefined
 
 
 @app.route("/")
-def homepage():
+def index():
     """View homepage."""
 
-    return render_template("homepage.html")
+    return render_template("index.html") 
+
+    # return '<html><body><h1>Hello</h1></body></html>'
 
 
 # # @app.route("/movies")
