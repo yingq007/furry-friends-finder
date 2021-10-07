@@ -5,8 +5,9 @@ import json
 from random import choice, randint
 from datetime import datetime
 
-import crud.py
+import crud
 import server
+import model
 
 os.system("dropdb ratings")
 os.system("createdb ratings")
@@ -14,12 +15,12 @@ os.system("createdb ratings")
 model.connect_to_db(server.app)
 model.db.create_all()
 
-# # Load movie data from JSON file
+# # Load dog  data from JSON file
 # with open("data/movies.json") as f:
 #     movie_data = json.loads(f.read())
 
-# Create movies, store them in list so we can use them
-# to create fake ratings
+# # Create movies, store them in list so we can use them
+# #to create fake ratings
 # movies_in_db = []
 # for movie in movie_data:
 #     title, overview, poster_path = (

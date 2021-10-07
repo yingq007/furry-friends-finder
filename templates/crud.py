@@ -3,7 +3,7 @@
 from model import db, User, Favorite, Animal, Breed, Animal_type, connect_to_db
 
 
-def create_user(email, password):
+def create_user(email, password,first_name, last_name, phone_number):
     """Create and return a new user."""
 
     user = User(email=email, password=password, fname= first_name, lname= last_name, phone_number = phone_number)
@@ -42,11 +42,11 @@ def create_animals(animal_id, animal_name, animal_description, fixed, receive_da
         animal_description=animal_description,
         fixed=fixed,
         receive_date=receive_date,
-        available_date=available_date
-        age=age
-        gender=gender
-        weight=weight
-        breed_id=breed_id
+        available_date=available_date,
+        age=age,
+        gender=gender,
+        weight=weight,
+        breed_id=breed_id,
         animal_type_id=animal_type_id
     )
 
