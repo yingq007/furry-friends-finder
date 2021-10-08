@@ -14,24 +14,19 @@ app.jinja_env.undefined = StrictUndefined
 
 
 @app.route('/')
-def index():
+def homepage():
     """View homepage."""
 
-    return render_template("index.html") 
+    return render_template("homepage.html") 
 
 
+@app.route("/animals")
+def all_animals():
+    """View all movies."""
 
+    animals = crud.get_animals()
 
-    # return '<html><body><h1>Hello</h1></body></html>'
-
-
-# # @app.route("/movies")
-# # def all_movies():
-# #     """View all movies."""
-
-# #     movies = crud.get_movies()
-
-# #     return render_template("all_movies.html", movies=movies)
+    return render_template("all_animals.html", animals=animals)
 
 
 # # @app.route("/movies/<movie_id>")
