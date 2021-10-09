@@ -8,10 +8,16 @@ import crud
 
 from jinja2 import StrictUndefined
 
+import requests
+import api_token
+
 app = Flask(__name__)
 app.secret_key = "dev"
 app.jinja_env.undefined = StrictUndefined
 
+
+API_KEY = os.environ['PETFINDER_API_KEY']
+SECRET_KEY = os.environ['PETFINDER_SECRET_KEY']
 
 @app.route('/')
 def homepage():
@@ -19,99 +25,43 @@ def homepage():
 
     return render_template("homepage.html") 
 
+@app.route("/api/breeds")
+def search_for_breeds():
+    breed_type = 'dog'
+    token = api_token.get_a_token()
+    url = 'https://api.petfinder.com/v2/types/' + breed_type + '/breeds'
 
-@app.route("/animals")
-def all_animals():
-    """View all movies."""
+    payload = {
+        'type': breed_type
+    }
 
-    animals = crud.get_animals()
+    data = api_token.get_data(url, token, payload)
+    
+    print("************************")
+    print(data)
 
-    return render_template("all_animals.html", animals=animals)
+    #parse through the data, iterate with for loop, store breed names in a dictionary
+    #key will be breeds and the value will be a list of breed names
+    # {
+    #     'breeds': [breedone, breedtwo]
+    # }
 
+    # return jsonify(breeds)
 
-# # @app.route("/movies/<movie_id>")
-# # def show_movie(movie_id):
-# #     """Show details on a particular movie."""
+    return render_template("homepage.html")
 
-# #     movie = crud.get_movie_by_id(movie_id)
+# @app.route("/animals")
+# def show_all_animals():
+#     """View all animals"""
+#     gender = request.args.get('gender', '')
+   
+   
 
-# #     return render_template("movie_details.html", movie=movie)
-
-
-# @app.route("/users")
-# def all_users():
-#     """View all users."""
-
-#     users = crud.get_users()
-
-#     return render_template("all_users.html", users=users)
-
-
-# @app.route("/users", methods=["POST"])
-# def register_user():
-#     """Create a new user."""
-
-#     email = request.form.get("email")
-#     password = request.form.get("password")
-
-#     user = crud.get_user_by_email(email)
-#     if user:
-#         flash("Cannot create an account with that email. Try again.")
-#     else:
-#         crud.create_user(email, password)
-#         flash("Account created! Please log in.")
-
-#     return redirect("/")
+#     url = 'https://api.petfinder.com/v2/animals?type=dog'
 
 
-# @app.route("/users/<user_id>")
-# def show_user(user_id):
-#     """Show details on a particular user."""
 
-#     user = crud.get_user_by_id(user_id)
-
-#     return render_template("user_details.html", user=user)
-
-
-# @app.route("/login", methods=["POST"])
-# def process_login():
-#     """Process user login."""
-
-#     email = request.form.get("email")
-#     password = request.form.get("password")
-
-#     user = crud.get_user_by_email(email)
-#     if not user or user.password != password:
-#         flash("The email or password you entered was incorrect.")
-#     else:
-#         # Log in user by storing the user's email in session
-#         session["user_email"] = user.email
-#         flash(f"Welcome back, {user.email}!")
-
-#     return redirect("/")
-
-
-# @app.route("/movies/<movie_id>/ratings", methods=["POST"])
-# def create_rating(movie_id):
-#     """Create a new rating for the movie."""
-
-#     logged_in_email = session.get("user_email")
-#     rating_score = request.form.get("rating")
-
-#     if logged_in_email is None:
-#         flash("You must log in to rate a movie.")
-#     elif not rating_score:
-#         flash("Error: you didn't select a score for your rating.")
-#     else:
-#         user = crud.get_user_by_email(logged_in_email)
-#         movie = crud.get_movie_by_id(movie_id)
-
-#         crud.create_rating(user, movie, int(rating_score))
-
-#         flash(f"You rated this movie {rating_score} out of 5.")
-
-#     return redirect(f"/movies/{movie_id}")
-
+#     return render_template("all_animals.html")
 
 if __name__ == "__main__":
     connect_to_db(app)
