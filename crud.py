@@ -80,8 +80,6 @@ def create_favorite(favorite_id, animal_id, user_id):
     return favorite
 
 
-
-
 def get_favorite_by_id(favorite_id):
     """Return a favorite by primary key."""
 

@@ -1,16 +1,17 @@
 {% extends 'base.html' %}
-{% block title %}All animals{% endblock %}
+{% block title %}All Animals{% endblock %}
 
 {% block body %}
   <h1>All Animals</h1>
-
+<!-- 
   <ul>
     {% for animal in animals %}
       <li>
-        <a href="/animals/{{ animals.animal_id }}">
-          {{ animal.name }}
+        <a href="/animal/{{ animal.animal_id }}">
+          {{ animal_name }}
         </a>
-      </li>
+      </li> -->
     {% endfor %}
   </ul>
 {% endblock %}
+

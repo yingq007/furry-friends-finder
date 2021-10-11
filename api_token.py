@@ -1,10 +1,10 @@
 import os
 import requests
 
-print("********************")
-print('client_id', os.environ['PETFINDER_API_KEY']) 
-print('client_secret', os.environ['PETFINDER_SECRET_KEY'])
-print("********************")
+# print("********************")
+# print('client_id', os.environ['PETFINDER_API_KEY']) 
+# print('client_secret', os.environ['PETFINDER_SECRET_KEY'])
+# print("********************")
 
 def get_a_token():
 
@@ -32,6 +32,6 @@ def get_data(url, token, payload):
     headers = {'Authorization': token }
     res = requests.get(url, headers=headers, params=payload)
     data = res.json()
-    print(data)
+    #print(data)
     return data
 

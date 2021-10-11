@@ -25,7 +25,7 @@ def homepage():
 
     return render_template("homepage.html") 
 
-@app.route("/api/breeds")
+@app.route("/breeds")
 def search_for_breeds():
     breed_type = 'dog'
     token = api_token.get_a_token()
@@ -38,7 +38,14 @@ def search_for_breeds():
     data = api_token.get_data(url, token, payload)
     
     print("************************")
-    print(data)
+    breed_types ={'breeds':[]}
+    for breednames in data['breeds']:
+        breed_types['breeds'].append(breednames['name'])
+    
+        print(breed_types)
+    return breed_types
+    
+    
 
     #parse through the data, iterate with for loop, store breed names in a dictionary
     #key will be breeds and the value will be a list of breed names
@@ -50,18 +57,14 @@ def search_for_breeds():
 
     return render_template("homepage.html")
 
-# @app.route("/animals")
-# def show_all_animals():
-#     """View all animals"""
-#     gender = request.args.get('gender', '')
-   
-   
+@app.route("/animals")
+def show_all_animals():
+    """View all animals"""
 
-#     url = 'https://api.petfinder.com/v2/animals?type=dog'
+    animals = crud.get_animals()
 
+    return render_template("all_animals.html", animals=animals)
 
-
-#     return render_template("all_animals.html")
 
 if __name__ == "__main__":
     connect_to_db(app)
