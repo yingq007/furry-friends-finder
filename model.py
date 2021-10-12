@@ -14,10 +14,10 @@ class User(db.Model):
 
     user_id = db.Column(db.Integer, primary_key=True, autoincrement=True)
     password = db.Column(db.String(25), nullable=False)
-    fname = db.Column(db.String(25))
-    lname = db.Column(db.String(25)) 
-    email = db.Column(db.String(100),nullable=False)
-    phone_number = db.Column(db.String(25)) 
+    # first_name = db.Column(db.String(25))
+    # last_name = db.Column(db.String(25)) 
+    email = db.Column(db.String(100))
+    # phone_number = db.Column(db.String(25)) 
 
     # favorites = db.relationship("Favorite", back_populates = "users")
 

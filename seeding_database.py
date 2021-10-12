@@ -9,11 +9,16 @@ import crud
 import server
 import model
 
-os.system("dropdb ratings")
-os.system("createdb ratings")
+os.system("dropdb users")
+os.system("createdb users")
 
 model.connect_to_db(server.app)
 model.db.create_all()
 
+for n in range(10):
+    email = f"user{n}@test.com"  # Voila! A unique email!
+    password = "test"
+
+    user = crud.create_user(email, password)
 
 
