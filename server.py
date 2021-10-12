@@ -25,7 +25,7 @@ def homepage():
 
     return render_template("homepage.html") 
 
-@app.route("/breeds")
+@app.route("/api/breeds")
 def search_for_breeds():
     breed_type = 'dog'
     token = api_token.get_a_token()
@@ -56,24 +56,27 @@ def search_for_breeds():
     # return jsonify(breeds)
 
 
-@app.route("/animals")
+@app.route("/api/animals")
 def show_all_animals():
     token = api_token.get_a_token()
-    url = 'https://api.petfinder.com/v2/animals?type=dog'
+    # url = 'https://api.petfinder.com/v2/animals?type=dog'
+
+    url = 'https://api.petfinder.com/v2/organizations'
     
 
+
     payload = {
-        'type': 'dog'
+        'location':'95014'
     }
 
     data = api_token.get_data(url, token, payload)
     result={'dogs':[]}
     print("************************")
     print(data)
-    for animal in data['animals']:
-        result['dogs'].append(animal)
+    # for animal in data['animals']:
+    #     result['dogs'].append(animal)
     
-    return result
+    return 'hello'
 
     
 
