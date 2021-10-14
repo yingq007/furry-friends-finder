@@ -1,13 +1,1649 @@
-{"animals":[{"id":53204023,"organization_id":"TX2471","url":"https:\/\/www.petfinder.com\/dog\/nymphadora-53204023\/tx\/el-paso\/el-paso-animal-services-tx2471\/?referrer_id=3733c538-6a6f-4cf0-91ac-619de2efe4ff","type":"Dog","species":"Dog","breeds":{"primary":"Pit Bull Terrier","secondary":"Mixed Breed","mixed":true,"unknown":false},"colors":{"primary":"Yellow \/ Tan \/ Blond \/ Fawn","secondary":"White \/ Cream","tertiary":null},"age":"Young","gender":"Female","size":"Medium","coat":null,"attributes":{"spayed_neutered":true,"house_trained":false,"declawed":null,"special_needs":false,"shots_current":true},"environment":{"children":null,"dogs":null,"cats":null},"tags":[],"name":"Nymphadora","description":null,"organization_animal_id":"48407720","photos":[],"primary_photo_cropped":null,"videos":[],"status":"adoptable","status_changed_at":"2021-10-08T07:06:42+0000","published_at":"2021-10-08T07:06:42+0000","distance":null,"contact":{"email":"epasadoptions@elpasotexas.gov","phone":"(915) 212-7297","address":{"address1":"5001 Fred Wilson","address2":null,"city":"El Paso","state":"TX","postcode":"79906","country":"US"}},"_links":
-    {
-        "self":
-            {"href":"\/v2\/animals\/53204023"},
-        "type":{"href":"\/v2\/types\/dog"},
-        "organization":{"href":"\/v2\/organizations\/tx2471"}
-    }}
+{
+    "dogs": [
+      {
+        "_links": {
+          "organization": {
+            "href": "/v2/organizations/ca1688"
+          }, 
+          "self": {
+            "href": "/v2/animals/53246711"
+          }, 
+          "type": {
+            "href": "/v2/types/dog"
+          }
+        }, 
+        "age": "Baby", 
+        "attributes": {
+          "declawed": null, 
+          "house_trained": true, 
+          "shots_current": true, 
+          "spayed_neutered": true, 
+          "special_needs": false
+        }, 
+        "breeds": {
+          "mixed": false, 
+          "primary": "Golden Retriever", 
+          "secondary": null, 
+          "unknown": false
+        }, 
+        "coat": "Medium", 
+        "colors": {
+          "primary": "Golden", 
+          "secondary": "White / Cream", 
+          "tertiary": null
+        }, 
+        "contact": {
+          "address": {
+            "address1": null, 
+            "address2": null, 
+            "city": "San Diego", 
+            "country": "US", 
+            "postcode": "92105", 
+            "state": "CA"
+          }, 
+          "email": "Animalsandkim@gmail.com", 
+          "phone": "(513)461-1191"
+        }, 
+        "description": "**** Please read adoption information carefully!!!****\n\nMarshall is such a love! He is curious and kind, and can always be...", 
+        "distance": null, 
+        "environment": {
+          "cats": null, 
+          "children": true, 
+          "dogs": true
+        }, 
+        "gender": "Male", 
+        "id": 53246711, 
+        "name": "Marshall ", 
+        "organization_animal_id": null, 
+        "organization_id": "CA1688", 
+        "photos": [
+          {
+            "full": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/53246711/1/?bust=1634110949", 
+            "large": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/53246711/1/?bust=1634110949&width=600", 
+            "medium": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/53246711/1/?bust=1634110949&width=300", 
+            "small": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/53246711/1/?bust=1634110949&width=100"
+          }, 
+          {
+            "full": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/53246711/2/?bust=1634110950", 
+            "large": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/53246711/2/?bust=1634110950&width=600", 
+            "medium": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/53246711/2/?bust=1634110950&width=300", 
+            "small": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/53246711/2/?bust=1634110950&width=100"
+          }, 
+          {
+            "full": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/53246711/3/?bust=1634110950", 
+            "large": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/53246711/3/?bust=1634110950&width=600", 
+            "medium": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/53246711/3/?bust=1634110950&width=300", 
+            "small": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/53246711/3/?bust=1634110950&width=100"
+          }, 
+          {
+            "full": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/53246711/4/?bust=1634110951", 
+            "large": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/53246711/4/?bust=1634110951&width=600", 
+            "medium": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/53246711/4/?bust=1634110951&width=300", 
+            "small": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/53246711/4/?bust=1634110951&width=100"
+          }, 
+          {
+            "full": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/53246711/5/?bust=1634110952", 
+            "large": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/53246711/5/?bust=1634110952&width=600", 
+            "medium": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/53246711/5/?bust=1634110952&width=300", 
+            "small": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/53246711/5/?bust=1634110952&width=100"
+          }
+        ], 
+        "primary_photo_cropped": {
+          "full": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/53246711/1/?bust=1634110949", 
+          "large": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/53246711/1/?bust=1634110949&width=600", 
+          "medium": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/53246711/1/?bust=1634110949&width=450", 
+          "small": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/53246711/1/?bust=1634110949&width=300"
+        }, 
+        "published_at": "2021-10-13T07:52:38+0000", 
+        "size": "Large", 
+        "species": "Dog", 
+        "status": "adoptable", 
+        "status_changed_at": "2021-10-13T07:52:38+0000", 
+        "tags": [
+          "Playful", 
+          "Friendly", 
+          "Affectionate"
+        ], 
+        "type": "Dog", 
+        "url": "https://www.petfinder.com/dog/marshall-53246711/ca/san-diego/animal-advocates-of-the-u-dot-s-ca1688/?referrer_id=3733c538-6a6f-4cf0-91ac-619de2efe4ff", 
+        "videos": [
+          {
+            "embed": "<iframe title=\"Video\" frameborder=\"0\" allowfullscreen webkitallowfullscreen mozallowfullscreen msallowfullscreen name=\"vidly-frame\" src=\"https://s.vid.ly/embeded.html?link=a9b4l5&autoplay=false\"><a target=\"_blank\" href=\"https://vid.ly/a9b4l5\"><img src=\"https://cf.cdn.vid.ly/a9b4l5/poster.jpg\" /></a></iframe>"
+          }
+        ]
+      }, 
+      {
+        "_links": {
+          "organization": {
+            "href": "/v2/organizations/ca1688"
+          }, 
+          "self": {
+            "href": "/v2/animals/53246678"
+          }, 
+          "type": {
+            "href": "/v2/types/dog"
+          }
+        }, 
+        "age": "Baby", 
+        "attributes": {
+          "declawed": null, 
+          "house_trained": true, 
+          "shots_current": true, 
+          "spayed_neutered": true, 
+          "special_needs": false
+        }, 
+        "breeds": {
+          "mixed": true, 
+          "primary": "Golden Retriever", 
+          "secondary": null, 
+          "unknown": false
+        }, 
+        "coat": "Short", 
+        "colors": {
+          "primary": "White / Cream", 
+          "secondary": "Apricot / Beige", 
+          "tertiary": null
+        }, 
+        "contact": {
+          "address": {
+            "address1": null, 
+            "address2": null, 
+            "city": "San Diego", 
+            "country": "US", 
+            "postcode": "92105", 
+            "state": "CA"
+          }, 
+          "email": "Animalsandkim@gmail.com", 
+          "phone": "(513)461-1191"
+        }, 
+        "description": "Description of pet\n**** Please read adoption information carefully!!!****\n\nDottie is such a love! She is curious and kind, and...", 
+        "distance": null, 
+        "environment": {
+          "cats": null, 
+          "children": true, 
+          "dogs": true
+        }, 
+        "gender": "Female", 
+        "id": 53246678, 
+        "name": "Dottie", 
+        "organization_animal_id": null, 
+        "organization_id": "CA1688", 
+        "photos": [
+          {
+            "full": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/53246678/1/?bust=1634109993", 
+            "large": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/53246678/1/?bust=1634109993&width=600", 
+            "medium": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/53246678/1/?bust=1634109993&width=300", 
+            "small": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/53246678/1/?bust=1634109993&width=100"
+          }, 
+          {
+            "full": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/53246678/2/?bust=1634109994", 
+            "large": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/53246678/2/?bust=1634109994&width=600", 
+            "medium": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/53246678/2/?bust=1634109994&width=300", 
+            "small": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/53246678/2/?bust=1634109994&width=100"
+          }, 
+          {
+            "full": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/53246678/3/?bust=1634109995", 
+            "large": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/53246678/3/?bust=1634109995&width=600", 
+            "medium": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/53246678/3/?bust=1634109995&width=300", 
+            "small": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/53246678/3/?bust=1634109995&width=100"
+          }, 
+          {
+            "full": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/53246678/4/?bust=1634109996", 
+            "large": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/53246678/4/?bust=1634109996&width=600", 
+            "medium": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/53246678/4/?bust=1634109996&width=300", 
+            "small": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/53246678/4/?bust=1634109996&width=100"
+          }, 
+          {
+            "full": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/53246678/5/?bust=1634109997", 
+            "large": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/53246678/5/?bust=1634109997&width=600", 
+            "medium": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/53246678/5/?bust=1634109997&width=300", 
+            "small": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/53246678/5/?bust=1634109997&width=100"
+          }
+        ], 
+        "primary_photo_cropped": {
+          "full": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/53246678/1/?bust=1634109993", 
+          "large": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/53246678/1/?bust=1634109993&width=600", 
+          "medium": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/53246678/1/?bust=1634109993&width=450", 
+          "small": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/53246678/1/?bust=1634109993&width=300"
+        }, 
+        "published_at": "2021-10-13T07:26:44+0000", 
+        "size": "Medium", 
+        "species": "Dog", 
+        "status": "adoptable", 
+        "status_changed_at": "2021-10-13T07:26:44+0000", 
+        "tags": [
+          "Affectionate", 
+          "Loyal", 
+          "Loves kisses"
+        ], 
+        "type": "Dog", 
+        "url": "https://www.petfinder.com/dog/dottie-53246678/ca/san-diego/animal-advocates-of-the-u-dot-s-ca1688/?referrer_id=3733c538-6a6f-4cf0-91ac-619de2efe4ff", 
+        "videos": [
+          {
+            "embed": "<iframe title=\"Video\" frameborder=\"0\" allowfullscreen webkitallowfullscreen mozallowfullscreen msallowfullscreen name=\"vidly-frame\" src=\"https://s.vid.ly/embeded.html?link=f1q4t9&autoplay=false\"><a target=\"_blank\" href=\"https://vid.ly/f1q4t9\"><img src=\"https://cf.cdn.vid.ly/f1q4t9/poster.jpg\" /></a></iframe>"
+          }
+        ]
+      }, 
+      {
+        "_links": {
+          "organization": {
+            "href": "/v2/organizations/nj742"
+          }, 
+          "self": {
+            "href": "/v2/animals/53246710"
+          }, 
+          "type": {
+            "href": "/v2/types/dog"
+          }
+        }, 
+        "age": "Baby", 
+        "attributes": {
+          "declawed": null, 
+          "house_trained": false, 
+          "shots_current": true, 
+          "spayed_neutered": false, 
+          "special_needs": false
+        }, 
+        "breeds": {
+          "mixed": true, 
+          "primary": "Hound", 
+          "secondary": null, 
+          "unknown": false
+        }, 
+        "coat": null, 
+        "colors": {
+          "primary": null, 
+          "secondary": null, 
+          "tertiary": null
+        }, 
+        "contact": {
+          "address": {
+            "address1": "P.O. Box 43", 
+            "address2": null, 
+            "city": "Succasunna", 
+            "country": "US", 
+            "postcode": "07876", 
+            "state": "NJ"
+          }, 
+          "email": "coldnosewarmheartdogrescue@gmail.com", 
+          "phone": null
+        }, 
+        "description": "MEET NERO\n\nNero is a 4 month old hound mix boy. He will most likely be large when full grown....", 
+        "distance": null, 
+        "environment": {
+          "cats": null, 
+          "children": null, 
+          "dogs": true
+        }, 
+        "gender": "Male", 
+        "id": 53246710, 
+        "name": "Nero ", 
+        "organization_animal_id": null, 
+        "organization_id": "NJ742", 
+        "photos": [
+          {
+            "full": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/53246710/1/?bust=1634109857", 
+            "large": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/53246710/1/?bust=1634109857&width=600", 
+            "medium": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/53246710/1/?bust=1634109857&width=300", 
+            "small": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/53246710/1/?bust=1634109857&width=100"
+          }, 
+          {
+            "full": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/53246710/2/?bust=1634109858", 
+            "large": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/53246710/2/?bust=1634109858&width=600", 
+            "medium": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/53246710/2/?bust=1634109858&width=300", 
+            "small": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/53246710/2/?bust=1634109858&width=100"
+          }
+        ], 
+        "primary_photo_cropped": {
+          "full": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/53246710/1/?bust=1634109857", 
+          "large": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/53246710/1/?bust=1634109857&width=600", 
+          "medium": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/53246710/1/?bust=1634109857&width=450", 
+          "small": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/53246710/1/?bust=1634109857&width=300"
+        }, 
+        "published_at": "2021-10-13T07:24:19+0000", 
+        "size": "Large", 
+        "species": "Dog", 
+        "status": "adoptable", 
+        "status_changed_at": "2021-10-13T07:24:19+0000", 
+        "tags": [
+          "Friendly", 
+          "Affectionate", 
+          "Playful", 
+          "Curious", 
+          "Loves kisses"
+        ], 
+        "type": "Dog", 
+        "url": "https://www.petfinder.com/dog/nero-53246710/nj/succasunna/cold-nose-warm-heart-dog-rescue-nj742/?referrer_id=3733c538-6a6f-4cf0-91ac-619de2efe4ff", 
+        "videos": []
+      }, 
+      {
+        "_links": {
+          "organization": {
+            "href": "/v2/organizations/fl1563"
+          }, 
+          "self": {
+            "href": "/v2/animals/53246705"
+          }, 
+          "type": {
+            "href": "/v2/types/dog"
+          }
+        }, 
+        "age": "Young", 
+        "attributes": {
+          "declawed": null, 
+          "house_trained": false, 
+          "shots_current": false, 
+          "spayed_neutered": false, 
+          "special_needs": false
+        }, 
+        "breeds": {
+          "mixed": true, 
+          "primary": "Australian Shepherd", 
+          "secondary": "Labrador Retriever", 
+          "unknown": false
+        }, 
+        "coat": null, 
+        "colors": {
+          "primary": null, 
+          "secondary": null, 
+          "tertiary": null
+        }, 
+        "contact": {
+          "address": {
+            "address1": null, 
+            "address2": null, 
+            "city": "Groveland", 
+            "country": "US", 
+            "postcode": "34736", 
+            "state": "FL"
+          }, 
+          "email": "islanddogrescue@yahoo.com", 
+          "phone": null
+        }, 
+        "description": "Oscar is 5 months old and is a mix of Lab, Australian Shepherd and German Shepherd. Unfortunately he has not...", 
+        "distance": null, 
+        "environment": {
+          "cats": null, 
+          "children": true, 
+          "dogs": true
+        }, 
+        "gender": "Male", 
+        "id": 53246705, 
+        "name": "Oscar", 
+        "organization_animal_id": "17330022", 
+        "organization_id": "FL1563", 
+        "photos": [], 
+        "primary_photo_cropped": null, 
+        "published_at": "2021-10-13T07:10:48+0000", 
+        "size": "Large", 
+        "species": "Dog", 
+        "status": "adoptable", 
+        "status_changed_at": "2021-10-13T07:10:48+0000", 
+        "tags": [], 
+        "type": "Dog", 
+        "url": "https://www.petfinder.com/dog/oscar-53246705/fl/groveland/island-dog-international-dog-rescue-fl1563/?referrer_id=3733c538-6a6f-4cf0-91ac-619de2efe4ff", 
+        "videos": []
+      }, 
+      {
+        "_links": {
+          "organization": {
+            "href": "/v2/organizations/fl1223"
+          }, 
+          "self": {
+            "href": "/v2/animals/53246684"
+          }, 
+          "type": {
+            "href": "/v2/types/dog"
+          }
+        }, 
+        "age": "Young", 
+        "attributes": {
+          "declawed": null, 
+          "house_trained": true, 
+          "shots_current": false, 
+          "spayed_neutered": false, 
+          "special_needs": false
+        }, 
+        "breeds": {
+          "mixed": false, 
+          "primary": "Husky", 
+          "secondary": null, 
+          "unknown": false
+        }, 
+        "coat": null, 
+        "colors": {
+          "primary": null, 
+          "secondary": null, 
+          "tertiary": null
+        }, 
+        "contact": {
+          "address": {
+            "address1": null, 
+            "address2": null, 
+            "city": "Plantation", 
+            "country": "US", 
+            "postcode": "33325", 
+            "state": "FL"
+          }, 
+          "email": "Info@savinggracefl.org", 
+          "phone": "(954) 562-8813"
+        }, 
+        "description": "King is approximately one years old and is good with children and other dogs. He is potty trained and loves...", 
+        "distance": null, 
+        "environment": {
+          "cats": null, 
+          "children": true, 
+          "dogs": true
+        }, 
+        "gender": "Male", 
+        "id": 53246684, 
+        "name": "King", 
+        "organization_animal_id": "17330014-D1021082", 
+        "organization_id": "FL1223", 
+        "photos": [], 
+        "primary_photo_cropped": null, 
+        "published_at": "2021-10-13T06:57:40+0000", 
+        "size": "Large", 
+        "species": "Dog", 
+        "status": "adoptable", 
+        "status_changed_at": "2021-10-13T06:57:40+0000", 
+        "tags": [], 
+        "type": "Dog", 
+        "url": "https://www.petfinder.com/dog/king-53246684/fl/plantation/saving-grace-and-her-furry-friends-fl1223/?referrer_id=3733c538-6a6f-4cf0-91ac-619de2efe4ff", 
+        "videos": []
+      }, 
+      {
+        "_links": {
+          "organization": {
+            "href": "/v2/organizations/co79"
+          }, 
+          "self": {
+            "href": "/v2/animals/53246681"
+          }, 
+          "type": {
+            "href": "/v2/types/dog"
+          }
+        }, 
+        "age": "Young", 
+        "attributes": {
+          "declawed": null, 
+          "house_trained": true, 
+          "shots_current": true, 
+          "spayed_neutered": false, 
+          "special_needs": true
+        }, 
+        "breeds": {
+          "mixed": true, 
+          "primary": "Husky", 
+          "secondary": null, 
+          "unknown": false
+        }, 
+        "coat": "Short", 
+        "colors": {
+          "primary": "White / Cream", 
+          "secondary": null, 
+          "tertiary": null
+        }, 
+        "contact": {
+          "address": {
+            "address1": null, 
+            "address2": null, 
+            "city": "MONUMENT", 
+            "country": "US", 
+            "postcode": "80132", 
+            "state": "CO"
+          }, 
+          "email": "pawhoofcolorado@gmail.com", 
+          "phone": "7195001880"
+        }, 
+        "description": "Mama Lyric and her 7 babies need a foster home from Denver Area to Colorado Springs. \n\nWe supply everything needed....", 
+        "distance": null, 
+        "environment": {
+          "cats": null, 
+          "children": true, 
+          "dogs": true
+        }, 
+        "gender": "Female", 
+        "id": 53246681, 
+        "name": "Lyric and 7 puppies", 
+        "organization_animal_id": null, 
+        "organization_id": "CO79", 
+        "photos": [
+          {
+            "full": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/53246681/1/?bust=1634107893", 
+            "large": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/53246681/1/?bust=1634107893&width=600", 
+            "medium": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/53246681/1/?bust=1634107893&width=300", 
+            "small": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/53246681/1/?bust=1634107893&width=100"
+          }, 
+          {
+            "full": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/53246681/2/?bust=1634107893", 
+            "large": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/53246681/2/?bust=1634107893&width=600", 
+            "medium": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/53246681/2/?bust=1634107893&width=300", 
+            "small": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/53246681/2/?bust=1634107893&width=100"
+          }, 
+          {
+            "full": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/53246681/3/?bust=1634107894", 
+            "large": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/53246681/3/?bust=1634107894&width=600", 
+            "medium": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/53246681/3/?bust=1634107894&width=300", 
+            "small": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/53246681/3/?bust=1634107894&width=100"
+          }, 
+          {
+            "full": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/53246681/4/?bust=1634107895", 
+            "large": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/53246681/4/?bust=1634107895&width=600", 
+            "medium": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/53246681/4/?bust=1634107895&width=300", 
+            "small": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/53246681/4/?bust=1634107895&width=100"
+          }
+        ], 
+        "primary_photo_cropped": {
+          "full": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/53246681/1/?bust=1634107893", 
+          "large": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/53246681/1/?bust=1634107893&width=600", 
+          "medium": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/53246681/1/?bust=1634107893&width=450", 
+          "small": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/53246681/1/?bust=1634107893&width=300"
+        }, 
+        "published_at": "2021-10-13T06:51:36+0000", 
+        "size": "Large", 
+        "species": "Dog", 
+        "status": "adoptable", 
+        "status_changed_at": "2021-10-13T06:51:36+0000", 
+        "tags": [
+          "Friendly", 
+          "Playful", 
+          "Loves kisses", 
+          "Funny"
+        ], 
+        "type": "Dog", 
+        "url": "https://www.petfinder.com/dog/lyric-and-7-puppies-53246681/co/monument/paws-n-hooves-dba-black-forest-animal-sanctuary-co79/?referrer_id=3733c538-6a6f-4cf0-91ac-619de2efe4ff", 
+        "videos": []
+      }, 
+      {
+        "_links": {
+          "organization": {
+            "href": "/v2/organizations/co79"
+          }, 
+          "self": {
+            "href": "/v2/animals/53246677"
+          }, 
+          "type": {
+            "href": "/v2/types/dog"
+          }
+        }, 
+        "age": "Young", 
+        "attributes": {
+          "declawed": null, 
+          "house_trained": true, 
+          "shots_current": true, 
+          "spayed_neutered": false, 
+          "special_needs": false
+        }, 
+        "breeds": {
+          "mixed": true, 
+          "primary": "Chihuahua", 
+          "secondary": null, 
+          "unknown": false
+        }, 
+        "coat": "Short", 
+        "colors": {
+          "primary": "Yellow / Tan / Blond / Fawn", 
+          "secondary": "White / Cream", 
+          "tertiary": null
+        }, 
+        "contact": {
+          "address": {
+            "address1": null, 
+            "address2": null, 
+            "city": "Colorado Springs", 
+            "country": "US", 
+            "postcode": "80908", 
+            "state": "CO"
+          }, 
+          "email": "pawhoofcolorado@gmail.com", 
+          "phone": "(719) 500-1880"
+        }, 
+        "description": "Covered!\n\n$55 left to go for her $150 goal to cover transport, etc. \n\nThe little submissive girl I saw by...", 
+        "distance": null, 
+        "environment": {
+          "cats": null, 
+          "children": null, 
+          "dogs": true
+        }, 
+        "gender": "Female", 
+        "id": 53246677, 
+        "name": "Bailey", 
+        "organization_animal_id": null, 
+        "organization_id": "CO79", 
+        "photos": [
+          {
+            "full": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/53246677/1/?bust=1634107643", 
+            "large": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/53246677/1/?bust=1634107643&width=600", 
+            "medium": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/53246677/1/?bust=1634107643&width=300", 
+            "small": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/53246677/1/?bust=1634107643&width=100"
+          }, 
+          {
+            "full": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/53246677/2/?bust=1634107644", 
+            "large": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/53246677/2/?bust=1634107644&width=600", 
+            "medium": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/53246677/2/?bust=1634107644&width=300", 
+            "small": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/53246677/2/?bust=1634107644&width=100"
+          }, 
+          {
+            "full": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/53246677/3/?bust=1634107646", 
+            "large": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/53246677/3/?bust=1634107646&width=600", 
+            "medium": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/53246677/3/?bust=1634107646&width=300", 
+            "small": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/53246677/3/?bust=1634107646&width=100"
+          }
+        ], 
+        "primary_photo_cropped": {
+          "full": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/53246677/1/?bust=1634107643", 
+          "large": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/53246677/1/?bust=1634107643&width=600", 
+          "medium": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/53246677/1/?bust=1634107643&width=450", 
+          "small": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/53246677/1/?bust=1634107643&width=300"
+        }, 
+        "published_at": "2021-10-13T06:47:27+0000", 
+        "size": "Small", 
+        "species": "Dog", 
+        "status": "adoptable", 
+        "status_changed_at": "2021-10-13T06:47:27+0000", 
+        "tags": [
+          "Friendly", 
+          "Playful", 
+          "Loves kisses", 
+          "Funny"
+        ], 
+        "type": "Dog", 
+        "url": "https://www.petfinder.com/dog/bailey-53246677/co/colorado-springs/paws-n-hooves-dba-black-forest-animal-sanctuary-co79/?referrer_id=3733c538-6a6f-4cf0-91ac-619de2efe4ff", 
+        "videos": []
+      }, 
+      {
+        "_links": {
+          "organization": {
+            "href": "/v2/organizations/wv59"
+          }, 
+          "self": {
+            "href": "/v2/animals/53246672"
+          }, 
+          "type": {
+            "href": "/v2/types/dog"
+          }
+        }, 
+        "age": "Adult", 
+        "attributes": {
+          "declawed": null, 
+          "house_trained": false, 
+          "shots_current": false, 
+          "spayed_neutered": false, 
+          "special_needs": false
+        }, 
+        "breeds": {
+          "mixed": true, 
+          "primary": "Boxer", 
+          "secondary": null, 
+          "unknown": false
+        }, 
+        "coat": null, 
+        "colors": {
+          "primary": null, 
+          "secondary": null, 
+          "tertiary": null
+        }, 
+        "contact": {
+          "address": {
+            "address1": "PO Box 452", 
+            "address2": null, 
+            "city": "Philippi", 
+            "country": "US", 
+            "postcode": "26416", 
+            "state": "WV"
+          }, 
+          "email": "jbraunswv@aol.com", 
+          "phone": "304 457-1419"
+        }, 
+        "description": "Indy is a 3-year-old, Boxer mix and weighs 38 pounds.\nShe&#039;s energetic and playful. Indy is very beautiful with\na...", 
+        "distance": null, 
+        "environment": {
+          "cats": null, 
+          "children": null, 
+          "dogs": null
+        }, 
+        "gender": "Female", 
+        "id": 53246672, 
+        "name": "Indy", 
+        "organization_animal_id": null, 
+        "organization_id": "WV59", 
+        "photos": [
+          {
+            "full": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/53246672/1/?bust=1634106906", 
+            "large": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/53246672/1/?bust=1634106906&width=600", 
+            "medium": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/53246672/1/?bust=1634106906&width=300", 
+            "small": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/53246672/1/?bust=1634106906&width=100"
+          }, 
+          {
+            "full": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/53246672/2/?bust=1634106906", 
+            "large": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/53246672/2/?bust=1634106906&width=600", 
+            "medium": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/53246672/2/?bust=1634106906&width=300", 
+            "small": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/53246672/2/?bust=1634106906&width=100"
+          }, 
+          {
+            "full": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/53246672/3/?bust=1634106907", 
+            "large": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/53246672/3/?bust=1634106907&width=600", 
+            "medium": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/53246672/3/?bust=1634106907&width=300", 
+            "small": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/53246672/3/?bust=1634106907&width=100"
+          }
+        ], 
+        "primary_photo_cropped": {
+          "full": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/53246672/1/?bust=1634106906", 
+          "large": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/53246672/1/?bust=1634106906&width=600", 
+          "medium": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/53246672/1/?bust=1634106906&width=450", 
+          "small": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/53246672/1/?bust=1634106906&width=300"
+        }, 
+        "published_at": "2021-10-13T06:35:08+0000", 
+        "size": "Medium", 
+        "species": "Dog", 
+        "status": "adoptable", 
+        "status_changed_at": "2021-10-13T06:35:08+0000", 
+        "tags": [], 
+        "type": "Dog", 
+        "url": "https://www.petfinder.com/dog/indy-53246672/wv/philippi/animal-friends-of-barbour-county-wv59/?referrer_id=3733c538-6a6f-4cf0-91ac-619de2efe4ff", 
+        "videos": []
+      }, 
+      {
+        "_links": {
+          "organization": {
+            "href": "/v2/organizations/ar180"
+          }, 
+          "self": {
+            "href": "/v2/animals/53246669"
+          }, 
+          "type": {
+            "href": "/v2/types/dog"
+          }
+        }, 
+        "age": "Young", 
+        "attributes": {
+          "declawed": null, 
+          "house_trained": true, 
+          "shots_current": false, 
+          "spayed_neutered": true, 
+          "special_needs": false
+        }, 
+        "breeds": {
+          "mixed": false, 
+          "primary": "Terrier", 
+          "secondary": null, 
+          "unknown": false
+        }, 
+        "coat": null, 
+        "colors": {
+          "primary": null, 
+          "secondary": null, 
+          "tertiary": null
+        }, 
+        "contact": {
+          "address": {
+            "address1": "P.O. Box 7365", 
+            "address2": "72217", 
+            "city": "Little Rock", 
+            "country": "US", 
+            "postcode": "72207", 
+            "state": "AR"
+          }, 
+          "email": "contact@ootwrescue.org ", 
+          "phone": null
+        }, 
+        "description": "Kenny is a small young adult male Terrier mix, could be some Beagle in the mix, its hard to tell,...", 
+        "distance": null, 
+        "environment": {
+          "cats": true, 
+          "children": true, 
+          "dogs": true
+        }, 
+        "gender": "Male", 
+        "id": 53246669, 
+        "name": "Kenny", 
+        "organization_animal_id": "D2109208", 
+        "organization_id": "AR180", 
+        "photos": [], 
+        "primary_photo_cropped": null, 
+        "published_at": "2021-10-13T06:30:49+0000", 
+        "size": "Medium", 
+        "species": "Dog", 
+        "status": "adoptable", 
+        "status_changed_at": "2021-10-13T06:30:49+0000", 
+        "tags": [], 
+        "type": "Dog", 
+        "url": "https://www.petfinder.com/dog/kenny-53246669/ar/little-rock/out-of-the-woods-animal-rescue-ar180/?referrer_id=3733c538-6a6f-4cf0-91ac-619de2efe4ff", 
+        "videos": []
+      }, 
+      {
+        "_links": {
+          "organization": {
+            "href": "/v2/organizations/co79"
+          }, 
+          "self": {
+            "href": "/v2/animals/53246667"
+          }, 
+          "type": {
+            "href": "/v2/types/dog"
+          }
+        }, 
+        "age": "Baby", 
+        "attributes": {
+          "declawed": null, 
+          "house_trained": true, 
+          "shots_current": true, 
+          "spayed_neutered": true, 
+          "special_needs": true
+        }, 
+        "breeds": {
+          "mixed": true, 
+          "primary": "Jack Russell Terrier", 
+          "secondary": "Chihuahua", 
+          "unknown": false
+        }, 
+        "coat": "Short", 
+        "colors": {
+          "primary": "White / Cream", 
+          "secondary": "Apricot / Beige", 
+          "tertiary": null
+        }, 
+        "contact": {
+          "address": {
+            "address1": null, 
+            "address2": null, 
+            "city": "MONUMENT", 
+            "country": "US", 
+            "postcode": "80132", 
+            "state": "CO"
+          }, 
+          "email": "pawhoofcolorado@gmail.com", 
+          "phone": "7195001880"
+        }, 
+        "description": "This is Peanut a 9 month old Jack Russell- Chihuahua mix, his birthday is January 07,2021. He is neutered and...", 
+        "distance": null, 
+        "environment": {
+          "cats": null, 
+          "children": null, 
+          "dogs": true
+        }, 
+        "gender": "Male", 
+        "id": 53246667, 
+        "name": "Peanut", 
+        "organization_animal_id": null, 
+        "organization_id": "CO79", 
+        "photos": [
+          {
+            "full": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/53246667/1/?bust=1634106695", 
+            "large": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/53246667/1/?bust=1634106695&width=600", 
+            "medium": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/53246667/1/?bust=1634106695&width=300", 
+            "small": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/53246667/1/?bust=1634106695&width=100"
+          }, 
+          {
+            "full": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/53246667/2/?bust=1634106696", 
+            "large": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/53246667/2/?bust=1634106696&width=600", 
+            "medium": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/53246667/2/?bust=1634106696&width=300", 
+            "small": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/53246667/2/?bust=1634106696&width=100"
+          }, 
+          {
+            "full": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/53246667/3/?bust=1634106697", 
+            "large": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/53246667/3/?bust=1634106697&width=600", 
+            "medium": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/53246667/3/?bust=1634106697&width=300", 
+            "small": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/53246667/3/?bust=1634106697&width=100"
+          }, 
+          {
+            "full": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/53246667/4/?bust=1634106697", 
+            "large": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/53246667/4/?bust=1634106697&width=600", 
+            "medium": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/53246667/4/?bust=1634106697&width=300", 
+            "small": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/53246667/4/?bust=1634106697&width=100"
+          }
+        ], 
+        "primary_photo_cropped": {
+          "full": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/53246667/1/?bust=1634106695", 
+          "large": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/53246667/1/?bust=1634106695&width=600", 
+          "medium": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/53246667/1/?bust=1634106695&width=450", 
+          "small": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/53246667/1/?bust=1634106695&width=300"
+        }, 
+        "published_at": "2021-10-13T06:30:13+0000", 
+        "size": "Small", 
+        "species": "Dog", 
+        "status": "adoptable", 
+        "status_changed_at": "2021-10-13T06:30:13+0000", 
+        "tags": [
+          "Friendly", 
+          "Affectionate", 
+          "Gentle", 
+          "Playful", 
+          "Smart", 
+          "Athletic"
+        ], 
+        "type": "Dog", 
+        "url": "https://www.petfinder.com/dog/peanut-53246667/co/monument/paws-n-hooves-dba-black-forest-animal-sanctuary-co79/?referrer_id=3733c538-6a6f-4cf0-91ac-619de2efe4ff", 
+        "videos": []
+      }, 
+      {
+        "_links": {
+          "organization": {
+            "href": "/v2/organizations/ca176"
+          }, 
+          "self": {
+            "href": "/v2/animals/53246662"
+          }, 
+          "type": {
+            "href": "/v2/types/dog"
+          }
+        }, 
+        "age": "Baby", 
+        "attributes": {
+          "declawed": null, 
+          "house_trained": false, 
+          "shots_current": true, 
+          "spayed_neutered": false, 
+          "special_needs": false
+        }, 
+        "breeds": {
+          "mixed": true, 
+          "primary": "Husky", 
+          "secondary": "Shepherd", 
+          "unknown": false
+        }, 
+        "coat": null, 
+        "colors": {
+          "primary": null, 
+          "secondary": null, 
+          "tertiary": null
+        }, 
+        "contact": {
+          "address": {
+            "address1": "1601 N. Sepulveda #518", 
+            "address2": null, 
+            "city": "Manhattan Beach", 
+            "country": "US", 
+            "postcode": "90266", 
+            "state": "CA"
+          }, 
+          "email": "noahsbarkdogs@yahoo.com", 
+          "phone": "(310) 462-9943"
+        }, 
+        "description": "Meet Chief (Kansas City Chiefs) of the NFL Litter. These puppies are Shepherd/Husky mixes born on July 22, 2021. The...", 
+        "distance": null, 
+        "environment": {
+          "cats": null, 
+          "children": null, 
+          "dogs": null
+        }, 
+        "gender": "Male", 
+        "id": 53246662, 
+        "name": "Chief", 
+        "organization_animal_id": "D2021031", 
+        "organization_id": "CA176", 
+        "photos": [], 
+        "primary_photo_cropped": null, 
+        "published_at": "2021-10-13T06:30:03+0000", 
+        "size": "Medium", 
+        "species": "Dog", 
+        "status": "adoptable", 
+        "status_changed_at": "2021-10-13T06:30:03+0000", 
+        "tags": [], 
+        "type": "Dog", 
+        "url": "https://www.petfinder.com/dog/chief-53246662/ca/manhattan-beach/noahs-bark-dog-rescue-ca176/?referrer_id=3733c538-6a6f-4cf0-91ac-619de2efe4ff", 
+        "videos": []
+      }, 
+      {
+        "_links": {
+          "organization": {
+            "href": "/v2/organizations/ca176"
+          }, 
+          "self": {
+            "href": "/v2/animals/53246663"
+          }, 
+          "type": {
+            "href": "/v2/types/dog"
+          }
+        }, 
+        "age": "Baby", 
+        "attributes": {
+          "declawed": null, 
+          "house_trained": false, 
+          "shots_current": true, 
+          "spayed_neutered": false, 
+          "special_needs": false
+        }, 
+        "breeds": {
+          "mixed": true, 
+          "primary": "Husky", 
+          "secondary": "Shepherd", 
+          "unknown": false
+        }, 
+        "coat": null, 
+        "colors": {
+          "primary": null, 
+          "secondary": null, 
+          "tertiary": null
+        }, 
+        "contact": {
+          "address": {
+            "address1": "1601 N. Sepulveda #518", 
+            "address2": null, 
+            "city": "Manhattan Beach", 
+            "country": "US", 
+            "postcode": "90266", 
+            "state": "CA"
+          }, 
+          "email": "noahsbarkdogs@yahoo.com", 
+          "phone": "(310) 462-9943"
+        }, 
+        "description": "Meet Ram (Los Angeles Rams) of the NFL Litter. These puppies are Shepherd/Husky mixes born on July 22, 2021. The...", 
+        "distance": null, 
+        "environment": {
+          "cats": true, 
+          "children": null, 
+          "dogs": null
+        }, 
+        "gender": "Male", 
+        "id": 53246663, 
+        "name": "Ram", 
+        "organization_animal_id": "D2021032", 
+        "organization_id": "CA176", 
+        "photos": [], 
+        "primary_photo_cropped": null, 
+        "published_at": "2021-10-13T06:30:03+0000", 
+        "size": "Medium", 
+        "species": "Dog", 
+        "status": "adoptable", 
+        "status_changed_at": "2021-10-13T06:30:03+0000", 
+        "tags": [], 
+        "type": "Dog", 
+        "url": "https://www.petfinder.com/dog/ram-53246663/ca/manhattan-beach/noahs-bark-dog-rescue-ca176/?referrer_id=3733c538-6a6f-4cf0-91ac-619de2efe4ff", 
+        "videos": []
+      }, 
+      {
+        "_links": {
+          "organization": {
+            "href": "/v2/organizations/ca176"
+          }, 
+          "self": {
+            "href": "/v2/animals/53246664"
+          }, 
+          "type": {
+            "href": "/v2/types/dog"
+          }
+        }, 
+        "age": "Baby", 
+        "attributes": {
+          "declawed": null, 
+          "house_trained": false, 
+          "shots_current": true, 
+          "spayed_neutered": false, 
+          "special_needs": false
+        }, 
+        "breeds": {
+          "mixed": true, 
+          "primary": "Husky", 
+          "secondary": "Shepherd", 
+          "unknown": false
+        }, 
+        "coat": null, 
+        "colors": {
+          "primary": null, 
+          "secondary": null, 
+          "tertiary": null
+        }, 
+        "contact": {
+          "address": {
+            "address1": "1601 N. Sepulveda #518", 
+            "address2": null, 
+            "city": "Manhattan Beach", 
+            "country": "US", 
+            "postcode": "90266", 
+            "state": "CA"
+          }, 
+          "email": "noahsbarkdogs@yahoo.com", 
+          "phone": "(310) 462-9943"
+        }, 
+        "description": "Meet Steeler (Pittsburgh Steelers) of the NFL Litter. These puppies are Shepherd/Husky mixes born on July 22, 2021. The puppies...", 
+        "distance": null, 
+        "environment": {
+          "cats": true, 
+          "children": null, 
+          "dogs": null
+        }, 
+        "gender": "Male", 
+        "id": 53246664, 
+        "name": "Steeler", 
+        "organization_animal_id": "D2021033", 
+        "organization_id": "CA176", 
+        "photos": [], 
+        "primary_photo_cropped": null, 
+        "published_at": "2021-10-13T06:30:03+0000", 
+        "size": "Medium", 
+        "species": "Dog", 
+        "status": "adoptable", 
+        "status_changed_at": "2021-10-13T06:30:03+0000", 
+        "tags": [], 
+        "type": "Dog", 
+        "url": "https://www.petfinder.com/dog/steeler-53246664/ca/manhattan-beach/noahs-bark-dog-rescue-ca176/?referrer_id=3733c538-6a6f-4cf0-91ac-619de2efe4ff", 
+        "videos": []
+      }, 
+      {
+        "_links": {
+          "organization": {
+            "href": "/v2/organizations/ca176"
+          }, 
+          "self": {
+            "href": "/v2/animals/53246665"
+          }, 
+          "type": {
+            "href": "/v2/types/dog"
+          }
+        }, 
+        "age": "Baby", 
+        "attributes": {
+          "declawed": null, 
+          "house_trained": false, 
+          "shots_current": true, 
+          "spayed_neutered": false, 
+          "special_needs": false
+        }, 
+        "breeds": {
+          "mixed": true, 
+          "primary": "Husky", 
+          "secondary": "Shepherd", 
+          "unknown": false
+        }, 
+        "coat": null, 
+        "colors": {
+          "primary": null, 
+          "secondary": null, 
+          "tertiary": null
+        }, 
+        "contact": {
+          "address": {
+            "address1": "1601 N. Sepulveda #518", 
+            "address2": null, 
+            "city": "Manhattan Beach", 
+            "country": "US", 
+            "postcode": "90266", 
+            "state": "CA"
+          }, 
+          "email": "noahsbarkdogs@yahoo.com", 
+          "phone": "(310) 462-9943"
+        }, 
+        "description": "Meet Raven (Baltimore Ravens) of the NFL Litter. These puppies are Shepherd/Husky mixes born on July 22, 2021. The puppies...", 
+        "distance": null, 
+        "environment": {
+          "cats": null, 
+          "children": null, 
+          "dogs": null
+        }, 
+        "gender": "Female", 
+        "id": 53246665, 
+        "name": "Raven", 
+        "organization_animal_id": "D2021029", 
+        "organization_id": "CA176", 
+        "photos": [], 
+        "primary_photo_cropped": null, 
+        "published_at": "2021-10-13T06:30:03+0000", 
+        "size": "Medium", 
+        "species": "Dog", 
+        "status": "adoptable", 
+        "status_changed_at": "2021-10-13T06:30:03+0000", 
+        "tags": [], 
+        "type": "Dog", 
+        "url": "https://www.petfinder.com/dog/raven-53246665/ca/manhattan-beach/noahs-bark-dog-rescue-ca176/?referrer_id=3733c538-6a6f-4cf0-91ac-619de2efe4ff", 
+        "videos": []
+      }, 
+      {
+        "_links": {
+          "organization": {
+            "href": "/v2/organizations/ca176"
+          }, 
+          "self": {
+            "href": "/v2/animals/53246666"
+          }, 
+          "type": {
+            "href": "/v2/types/dog"
+          }
+        }, 
+        "age": "Baby", 
+        "attributes": {
+          "declawed": null, 
+          "house_trained": false, 
+          "shots_current": true, 
+          "spayed_neutered": false, 
+          "special_needs": false
+        }, 
+        "breeds": {
+          "mixed": true, 
+          "primary": "Husky", 
+          "secondary": "Shepherd", 
+          "unknown": false
+        }, 
+        "coat": null, 
+        "colors": {
+          "primary": null, 
+          "secondary": null, 
+          "tertiary": null
+        }, 
+        "contact": {
+          "address": {
+            "address1": "1601 N. Sepulveda #518", 
+            "address2": null, 
+            "city": "Manhattan Beach", 
+            "country": "US", 
+            "postcode": "90266", 
+            "state": "CA"
+          }, 
+          "email": "noahsbarkdogs@yahoo.com", 
+          "phone": "(310) 462-9943"
+        }, 
+        "description": "Meet Buc (Tampa Bay Buccaneers) of the NFL Litter. These puppies are Shepherd/Husky mixes born on July 22, 2021. The...", 
+        "distance": null, 
+        "environment": {
+          "cats": null, 
+          "children": null, 
+          "dogs": null
+        }, 
+        "gender": "Male", 
+        "id": 53246666, 
+        "name": "Buc", 
+        "organization_animal_id": "D2021030", 
+        "organization_id": "CA176", 
+        "photos": [], 
+        "primary_photo_cropped": null, 
+        "published_at": "2021-10-13T06:30:03+0000", 
+        "size": "Medium", 
+        "species": "Dog", 
+        "status": "adoptable", 
+        "status_changed_at": "2021-10-13T06:30:03+0000", 
+        "tags": [], 
+        "type": "Dog", 
+        "url": "https://www.petfinder.com/dog/buc-53246666/ca/manhattan-beach/noahs-bark-dog-rescue-ca176/?referrer_id=3733c538-6a6f-4cf0-91ac-619de2efe4ff", 
+        "videos": []
+      }, 
+      {
+        "_links": {
+          "organization": {
+            "href": "/v2/organizations/mo78"
+          }, 
+          "self": {
+            "href": "/v2/animals/53246611"
+          }, 
+          "type": {
+            "href": "/v2/types/dog"
+          }
+        }, 
+        "age": "Baby", 
+        "attributes": {
+          "declawed": null, 
+          "house_trained": false, 
+          "shots_current": false, 
+          "spayed_neutered": true, 
+          "special_needs": false
+        }, 
+        "breeds": {
+          "mixed": false, 
+          "primary": "Hound", 
+          "secondary": null, 
+          "unknown": false
+        }, 
+        "coat": null, 
+        "colors": {
+          "primary": null, 
+          "secondary": null, 
+          "tertiary": null
+        }, 
+        "contact": {
+          "address": {
+            "address1": null, 
+            "address2": null, 
+            "city": "Saint Joseph", 
+            "country": "US", 
+            "postcode": "64504", 
+            "state": "MO"
+          }, 
+          "email": "evanover@live.com", 
+          "phone": "(816) 271-4877"
+        }, 
+        "description": "Color:white/black, Markings:back is all white", 
+        "distance": null, 
+        "environment": {
+          "cats": null, 
+          "children": null, 
+          "dogs": null
+        }, 
+        "gender": "Female", 
+        "id": 53246611, 
+        "name": "Ducky", 
+        "organization_animal_id": "762491", 
+        "organization_id": "MO78", 
+        "photos": [
+          {
+            "full": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/53246611/1/?bust=1634111892", 
+            "large": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/53246611/1/?bust=1634111892&width=600", 
+            "medium": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/53246611/1/?bust=1634111892&width=300", 
+            "small": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/53246611/1/?bust=1634111892&width=100"
+          }
+        ], 
+        "primary_photo_cropped": {
+          "full": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/53246611/1/?bust=1634111892", 
+          "large": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/53246611/1/?bust=1634111892&width=600", 
+          "medium": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/53246611/1/?bust=1634111892&width=450", 
+          "small": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/53246611/1/?bust=1634111892&width=300"
+        }, 
+        "published_at": "2021-10-13T06:29:17+0000", 
+        "size": "Medium", 
+        "species": "Dog", 
+        "status": "adoptable", 
+        "status_changed_at": "2021-10-13T06:29:17+0000", 
+        "tags": [], 
+        "type": "Dog", 
+        "url": "https://www.petfinder.com/dog/ducky-53246611/mo/saint-joseph/friends-of-the-animal-shelter-of-st-joseph-inc-mo78/?referrer_id=3733c538-6a6f-4cf0-91ac-619de2efe4ff", 
+        "videos": []
+      }, 
+      {
+        "_links": {
+          "organization": {
+            "href": "/v2/organizations/mo78"
+          }, 
+          "self": {
+            "href": "/v2/animals/53246612"
+          }, 
+          "type": {
+            "href": "/v2/types/dog"
+          }
+        }, 
+        "age": "Adult", 
+        "attributes": {
+          "declawed": null, 
+          "house_trained": false, 
+          "shots_current": false, 
+          "spayed_neutered": true, 
+          "special_needs": false
+        }, 
+        "breeds": {
+          "mixed": true, 
+          "primary": "German Shepherd Dog", 
+          "secondary": "Husky", 
+          "unknown": false
+        }, 
+        "coat": null, 
+        "colors": {
+          "primary": null, 
+          "secondary": null, 
+          "tertiary": null
+        }, 
+        "contact": {
+          "address": {
+            "address1": null, 
+            "address2": null, 
+            "city": "Saint Joseph", 
+            "country": "US", 
+            "postcode": "64504", 
+            "state": "MO"
+          }, 
+          "email": "evanover@live.com", 
+          "phone": "(816) 271-4877"
+        }, 
+        "description": "Color:tri colored", 
+        "distance": null, 
+        "environment": {
+          "cats": null, 
+          "children": null, 
+          "dogs": null
+        }, 
+        "gender": "Male", 
+        "id": 53246612, 
+        "name": "Grim", 
+        "organization_animal_id": "788205", 
+        "organization_id": "MO78", 
+        "photos": [
+          {
+            "full": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/53246612/1/?bust=1634112032", 
+            "large": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/53246612/1/?bust=1634112032&width=600", 
+            "medium": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/53246612/1/?bust=1634112032&width=300", 
+            "small": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/53246612/1/?bust=1634112032&width=100"
+          }
+        ], 
+        "primary_photo_cropped": {
+          "full": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/53246612/1/?bust=1634112032", 
+          "large": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/53246612/1/?bust=1634112032&width=600", 
+          "medium": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/53246612/1/?bust=1634112032&width=450", 
+          "small": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/53246612/1/?bust=1634112032&width=300"
+        }, 
+        "published_at": "2021-10-13T06:29:17+0000", 
+        "size": "Medium", 
+        "species": "Dog", 
+        "status": "adoptable", 
+        "status_changed_at": "2021-10-13T06:29:17+0000", 
+        "tags": [], 
+        "type": "Dog", 
+        "url": "https://www.petfinder.com/dog/grim-53246612/mo/saint-joseph/friends-of-the-animal-shelter-of-st-joseph-inc-mo78/?referrer_id=3733c538-6a6f-4cf0-91ac-619de2efe4ff", 
+        "videos": []
+      }, 
+      {
+        "_links": {
+          "organization": {
+            "href": "/v2/organizations/mo78"
+          }, 
+          "self": {
+            "href": "/v2/animals/53246605"
+          }, 
+          "type": {
+            "href": "/v2/types/dog"
+          }
+        }, 
+        "age": "Adult", 
+        "attributes": {
+          "declawed": null, 
+          "house_trained": false, 
+          "shots_current": false, 
+          "spayed_neutered": false, 
+          "special_needs": false
+        }, 
+        "breeds": {
+          "mixed": true, 
+          "primary": "Pit Bull Terrier", 
+          "secondary": "Hound", 
+          "unknown": false
+        }, 
+        "coat": null, 
+        "colors": {
+          "primary": null, 
+          "secondary": null, 
+          "tertiary": null
+        }, 
+        "contact": {
+          "address": {
+            "address1": null, 
+            "address2": null, 
+            "city": "Saint Joseph", 
+            "country": "US", 
+            "postcode": "64504", 
+            "state": "MO"
+          }, 
+          "email": "evanover@live.com", 
+          "phone": "(816) 271-4877"
+        }, 
+        "description": "Color:black", 
+        "distance": null, 
+        "environment": {
+          "cats": null, 
+          "children": null, 
+          "dogs": null
+        }, 
+        "gender": "Male", 
+        "id": 53246605, 
+        "name": "Stocky", 
+        "organization_animal_id": "787864", 
+        "organization_id": "MO78", 
+        "photos": [], 
+        "primary_photo_cropped": null, 
+        "published_at": "2021-10-13T06:29:16+0000", 
+        "size": "Medium", 
+        "species": "Dog", 
+        "status": "adoptable", 
+        "status_changed_at": "2021-10-13T06:29:16+0000", 
+        "tags": [], 
+        "type": "Dog", 
+        "url": "https://www.petfinder.com/dog/stocky-53246605/mo/saint-joseph/friends-of-the-animal-shelter-of-st-joseph-inc-mo78/?referrer_id=3733c538-6a6f-4cf0-91ac-619de2efe4ff", 
+        "videos": []
+      }, 
+      {
+        "_links": {
+          "organization": {
+            "href": "/v2/organizations/mo78"
+          }, 
+          "self": {
+            "href": "/v2/animals/53246606"
+          }, 
+          "type": {
+            "href": "/v2/types/dog"
+          }
+        }, 
+        "age": "Adult", 
+        "attributes": {
+          "declawed": null, 
+          "house_trained": false, 
+          "shots_current": false, 
+          "spayed_neutered": false, 
+          "special_needs": false
+        }, 
+        "breeds": {
+          "mixed": false, 
+          "primary": "Hound", 
+          "secondary": null, 
+          "unknown": false
+        }, 
+        "coat": null, 
+        "colors": {
+          "primary": null, 
+          "secondary": null, 
+          "tertiary": null
+        }, 
+        "contact": {
+          "address": {
+            "address1": null, 
+            "address2": null, 
+            "city": "Saint Joseph", 
+            "country": "US", 
+            "postcode": "64504", 
+            "state": "MO"
+          }, 
+          "email": "evanover@live.com", 
+          "phone": "(816) 271-4877"
+        }, 
+        "description": "Color:tri colored", 
+        "distance": null, 
+        "environment": {
+          "cats": null, 
+          "children": null, 
+          "dogs": null
+        }, 
+        "gender": "Male", 
+        "id": 53246606, 
+        "name": "Dexter", 
+        "organization_animal_id": "790067", 
+        "organization_id": "MO78", 
+        "photos": [
+          {
+            "full": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/53246606/1/?bust=1634112033", 
+            "large": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/53246606/1/?bust=1634112033&width=600", 
+            "medium": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/53246606/1/?bust=1634112033&width=300", 
+            "small": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/53246606/1/?bust=1634112033&width=100"
+          }
+        ], 
+        "primary_photo_cropped": {
+          "full": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/53246606/1/?bust=1634112033", 
+          "large": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/53246606/1/?bust=1634112033&width=600", 
+          "medium": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/53246606/1/?bust=1634112033&width=450", 
+          "small": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/53246606/1/?bust=1634112033&width=300"
+        }, 
+        "published_at": "2021-10-13T06:29:16+0000", 
+        "size": "Medium", 
+        "species": "Dog", 
+        "status": "adoptable", 
+        "status_changed_at": "2021-10-13T06:29:16+0000", 
+        "tags": [], 
+        "type": "Dog", 
+        "url": "https://www.petfinder.com/dog/dexter-53246606/mo/saint-joseph/friends-of-the-animal-shelter-of-st-joseph-inc-mo78/?referrer_id=3733c538-6a6f-4cf0-91ac-619de2efe4ff", 
+        "videos": []
+      }, 
+      {
+        "_links": {
+          "organization": {
+            "href": "/v2/organizations/mo78"
+          }, 
+          "self": {
+            "href": "/v2/animals/53246610"
+          }, 
+          "type": {
+            "href": "/v2/types/dog"
+          }
+        }, 
+        "age": "Senior", 
+        "attributes": {
+          "declawed": null, 
+          "house_trained": true, 
+          "shots_current": false, 
+          "spayed_neutered": true, 
+          "special_needs": false
+        }, 
+        "breeds": {
+          "mixed": true, 
+          "primary": "Shepherd", 
+          "secondary": "Hound", 
+          "unknown": false
+        }, 
+        "coat": null, 
+        "colors": {
+          "primary": null, 
+          "secondary": null, 
+          "tertiary": null
+        }, 
+        "contact": {
+          "address": {
+            "address1": null, 
+            "address2": null, 
+            "city": "Saint Joseph", 
+            "country": "US", 
+            "postcode": "64504", 
+            "state": "MO"
+          }, 
+          "email": "evanover@live.com", 
+          "phone": "(816) 271-4877"
+        }, 
+        "description": "Thor is a female Shepherd mix that weighs 84 pounds (she`s a little on the chonky-side because her loveees snacks)....", 
+        "distance": null, 
+        "environment": {
+          "cats": null, 
+          "children": null, 
+          "dogs": null
+        }, 
+        "gender": "Female", 
+        "id": 53246610, 
+        "name": "Thor", 
+        "organization_animal_id": "39478", 
+        "organization_id": "MO78", 
+        "photos": [
+          {
+            "full": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/53246610/1/?bust=1634112112", 
+            "large": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/53246610/1/?bust=1634112112&width=600", 
+            "medium": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/53246610/1/?bust=1634112112&width=300", 
+            "small": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/53246610/1/?bust=1634112112&width=100"
+          }
+        ], 
+        "primary_photo_cropped": {
+          "full": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/53246610/1/?bust=1634112112", 
+          "large": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/53246610/1/?bust=1634112112&width=600", 
+          "medium": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/53246610/1/?bust=1634112112&width=450", 
+          "small": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/53246610/1/?bust=1634112112&width=300"
+        }, 
+        "published_at": "2021-10-13T06:29:15+0000", 
+        "size": "Medium", 
+        "species": "Dog", 
+        "status": "adoptable", 
+        "status_changed_at": "2021-10-13T06:29:15+0000", 
+        "tags": [], 
+        "type": "Dog", 
+        "url": "https://www.petfinder.com/dog/thor-53246610/mo/saint-joseph/friends-of-the-animal-shelter-of-st-joseph-inc-mo78/?referrer_id=3733c538-6a6f-4cf0-91ac-619de2efe4ff", 
+        "videos": []
+      }
     ]
-    
-    
-    
-    
-    {"id":53204024,"organization_id":"TX2471","url":"https:\/\/www.petfinder.com\/dog\/king-53204024\/tx\/el-paso\/el-paso-animal-services-tx2471\/?referrer_id=3733c538-6a6f-4cf0-91ac-619de2efe4ff","type":"Dog","species":"Dog","breeds":{"primary":"German Shepherd Dog","secondary":"Mixed Breed","mixed":true,"unknown":false},"colors":{"primary":"Yellow \/ Tan \/ Blond \/ Fawn","secondary":null,"tertiary":null},"age":"Senior","gender":"Male","size":"Extra Large","coat":null,"attributes":{"spayed_neutered":true,"house_trained":false,"declawed":null,"special_needs":false,"shots_current":true},"environment":{"children":null,"dogs":null,"cats":null},"tags":[],"name":"King","description":null,"organization_animal_id":"41579244","photos":[],"primary_photo_cropped":null,"videos":[],"status":"adoptable","status_changed_at":"2021-10-08T07:06:42+0000","published_at":"2021-10-08T07:06:42+0000","distance":null,"contact":{"email":"epasadoptions@elpasotexas.gov","phone":"(915) 212-7297","address":{"address1":"5001 Fred Wilson","address2":null,"city":"El Paso","state":"TX","postcode":"79906","country":"US"}},"_links":{"self":{"href":"\/v2\/animals\/53204024"},"type":{"href":"\/v2\/types\/dog"},"organization":{"href":"\/v2\/organizations\/tx2471"}}},{"id":53204025,"organization_id":"TX2471","url":"https:\/\/www.petfinder.com\/dog\/scooter-53204025\/tx\/el-paso\/el-paso-animal-services-tx2471\/?referrer_id=3733c538-6a6f-4cf0-91ac-619de2efe4ff","type":"Dog","species":"Dog","breeds":{"primary":"Miniature Poodle","secondary":"Schnauzer","mixed":true,"unknown":false},"colors":{"primary":"Black","secondary":"Gray \/ Blue \/ Silver","tertiary":null},"age":"Senior","gender":"Male","size":"Small","coat":null,"attributes":{"spayed_neutered":false,"house_trained":false,"declawed":null,"special_needs":false,"shots_current":true},"environment":{"children":null,"dogs":null,"cats":null},"tags":[],"name":"Scooter","description":null,"organization_animal_id":"48618616","photos":[],"primary_photo_cropped":null,"videos":[],"status":"adoptable","status_changed_at":"2021-10-08T07:06:42+0000","published_at":"2021-10-08T07:06:42+0000","distance":null,"contact":{"email":"epasadoptions@elpasotexas.gov","phone":"(915) 212-7297","address":{"address1":"5001 Fred Wilson","address2":null,"city":"El Paso","state":"TX","postcode":"79906","country":"US"}},"_links":{"self":{"href":"\/v2\/animals\/53204025"},"type":{"href":"\/v2\/types\/dog"},"organization":{"href":"\/v2\/organizations\/tx2471"}}},{"id":53204026,"organization_id":"TX2471","url":"https:\/\/www.petfinder.com\/dog\/leo-53204026\/tx\/el-paso\/el-paso-animal-services-tx2471\/?referrer_id=3733c538-6a6f-4cf0-91ac-619de2efe4ff","type":"Dog","species":"Dog","breeds":{"primary":"Chihuahua","secondary":"Mixed Breed","mixed":true,"unknown":false},"colors":{"primary":"Yellow \/ Tan \/ Blond \/ Fawn","secondary":null,"tertiary":null},"age":"Young","gender":"Male","size":"Small","coat":null,"attributes":{"spayed_neutered":false,"house_trained":false,"declawed":null,"special_needs":false,"shots_current":true},"environment":{"children":null,"dogs":null,"cats":null},"tags":[],"name":"Leo","description":null,"organization_animal_id":"48727441","photos":[],"primary_photo_cropped":null,"videos":[],"status":"adoptable","status_changed_at":"2021-10-08T07:06:42+0000","published_at":"2021-10-08T07:06:42+0000","distance":null,"contact":{"email":"epasadoptions@elpasotexas.gov","phone":"(915) 212-7297","address":{"address1":"5001 Fred Wilson","address2":null,"city":"El Paso","state":"TX","postcode":"79906","country":"US"}},"_links":{"self":{"href":"\/v2\/animals\/53204026"},"type":{"href":"\/v2\/types\/dog"},"organization":{"href":"\/v2\/organizations\/tx2471"}}},{"id":53204027,"organization_id":"TX2471","url":"https:\/\/www.petfinder.com\/dog\/joby-53204027\/tx\/el-paso\/el-paso-animal-services-tx2471\/?referrer_id=3733c538-6a6f-4cf0-91ac-619de2efe4ff","type":"Dog","species":"Dog","breeds":{"primary":"German Shepherd Dog","secondary":"Mixed Breed","mixed":true,"unknown":false},"colors":{"primary":"Black","secondary":"Yellow \/ Tan \/ Blond \/ Fawn","tertiary":null},"age":"Young","gender":"Male","size":"Medium","coat":null,"attributes":{"spayed_neutered":false,"house_trained":false,"declawed":null,"special_needs":false,"shots_current":true},"environment":{"children":null,"dogs":null,"cats":null},"tags":[],"name":"Joby","description":null,"organization_animal_id":"48481403","photos":[],"primary_photo_cropped":null,"videos":[],"status":"adoptable","status_changed_at":"2021-10-08T07:06:42+0000","published_at":"2021-10-08T07:06:42+0000","distance":null,"contact":{"email":"epasadoptions@elpasotexas.gov","phone":"(915) 212-7297","address":{"address1":"5001 Fred Wilson","address2":null,"city":"El Paso","state":"TX","postcode":"79906","country":"US"}},"_links":{"self":{"href":"\/v2\/animals\/53204027"},"type":{"href":"\/v2\/types\/dog"},"organization":{"href":"\/v2\/organizations\/tx2471"}}},{"id":53204015,"organization_id":"TX2471","url":"https:\/\/www.petfinder.com\/dog\/skye-53204015\/tx\/el-paso\/el-paso-animal-services-tx2471\/?referrer_id=3733c538-6a6f-4cf0-91ac-619de2efe4ff","type":"Dog","species":"Dog","breeds":{"primary":"Pit Bull Terrier","secondary":"Mixed Breed","mixed":true,"unknown":false},"colors":{"primary":"Brown \/ Chocolate","secondary":"White \/ Cream","tertiary":null},"age":"Baby","gender":"Female","size":"Small","coat":null,"attributes":{"spayed_neutered":false,"house_trained":false,"declawed":null,"special_needs":false,"shots_current":true},"environment":{"children":null,"dogs":null,"cats":null},"tags":[],"name":"Skye","description":null,"organization_animal_id":"48744893","photos":[],"primary_photo_cropped":null,"videos":[],"status":"adoptable","status_changed_at":"2021-10-08T07:06:41+0000","published_at":"2021-10-08T07:06:41+0000","distance":null,"contact":{"email":"epasadoptions@elpasotexas.gov","phone":"(915) 212-7297","address":{"address1":"5001 Fred Wilson","address2":null,"city":"El Paso","state":"TX","postcode":"79906","country":"US"}},"_links":{"self":{"href":"\/v2\/animals\/53204015"},"type":{"href":"\/v2\/types\/dog"},"organization":{"href":"\/v2\/organizations\/tx2471"}}},{"id":53204016,"organization_id":"TX2471","url":"https:\/\/www.petfinder.com\/dog\/majo-53204016\/tx\/el-paso\/el-paso-animal-services-tx2471\/?referrer_id=3733c538-6a6f-4cf0-91ac-619de2efe4ff","type":"Dog","species":"Dog","breeds":{"primary":"Border Collie","secondary":"Mixed Breed","mixed":true,"unknown":false},"colors":{"primary":"White \/ Cream","secondary":"Black","tertiary":null},"age":"Adult","gender":"Male","size":"Large","coat":null,"attributes":{"spayed_neutered":false,"house_trained":false,"declawed":null,"special_needs":false,"shots_current":true},"environment":{"children":null,"dogs":null,"cats":null},"tags":[],"name":"Majo","description":null,"organization_animal_id":"48506720","photos":[],"primary_photo_cropped":null,"videos":[],"status":"adoptable","status_changed_at":"2021-10-08T07:06:41+0000","published_at":"2021-10-08T07:06:41+0000","distance":null,"contact":{"email":"epasadoptions@elpasotexas.gov","phone":"(915) 212-7297","address":{"address1":"5001 Fred Wilson","address2":null,"city":"El Paso","state":"TX","postcode":"79906","country":"US"}},"_links":{"self":{"href":"\/v2\/animals\/53204016"},"type":{"href":"\/v2\/types\/dog"},"organization":{"href":"\/v2\/organizations\/tx2471"}}},{"id":53204017,"organization_id":"TX2471","url":"https:\/\/www.petfinder.com\/dog\/sweet-pea-53204017\/tx\/el-paso\/el-paso-animal-services-tx2471\/?referrer_id=3733c538-6a6f-4cf0-91ac-619de2efe4ff","type":"Dog","species":"Dog","breeds":{"primary":"American Staffordshire Terrier","secondary":"Mixed Breed","mixed":true,"unknown":false},"colors":{"primary":"Yellow \/ Tan \/ Blond \/ Fawn","secondary":null,"tertiary":null},"age":"Adult","gender":"Female","size":"Small","coat":null,"attributes":{"spayed_neutered":false,"house_trained":false,"declawed":null,"special_needs":false,"shots_current":true},"environment":{"children":null,"dogs":null,"cats":null},"tags":[],"name":"Sweet pea","description":null,"organization_animal_id":"48294828","photos":[],"primary_photo_cropped":null,"videos":[],"status":"adoptable","status_changed_at":"2021-10-08T07:06:41+0000","published_at":"2021-10-08T07:06:41+0000","distance":null,"contact":{"email":"epasadoptions@elpasotexas.gov","phone":"(915) 212-7297","address":{"address1":"5001 Fred Wilson","address2":null,"city":"El Paso","state":"TX","postcode":"79906","country":"US"}},"_links":{"self":{"href":"\/v2\/animals\/53204017"},"type":{"href":"\/v2\/types\/dog"},"organization":{"href":"\/v2\/organizations\/tx2471"}}},{"id":53204018,"organization_id":"TX2471","url":"https:\/\/www.petfinder.com\/dog\/max-53204018\/tx\/el-paso\/el-paso-animal-services-tx2471\/?referrer_id=3733c538-6a6f-4cf0-91ac-619de2efe4ff","type":"Dog","species":"Dog","breeds":{"primary":"Labrador Retriever","secondary":"Mixed Breed","mixed":true,"unknown":false},"colors":{"primary":"Golden","secondary":null,"tertiary":null},"age":"Baby","gender":"Male","size":"Small","coat":null,"attributes":{"spayed_neutered":false,"house_trained":false,"declawed":null,"special_needs":false,"shots_current":true},"environment":{"children":null,"dogs":null,"cats":null},"tags":[],"name":"MAX","description":null,"organization_animal_id":"48738771","photos":[],"primary_photo_cropped":null,"videos":[],"status":"adoptable","status_changed_at":"2021-10-08T07:06:41+0000","published_at":"2021-10-08T07:06:41+0000","distance":null,"contact":{"email":"epasadoptions@elpasotexas.gov","phone":"(915) 212-7297","address":{"address1":"5001 Fred Wilson","address2":null,"city":"El Paso","state":"TX","postcode":"79906","country":"US"}},"_links":{"self":{"href":"\/v2\/animals\/53204018"},"type":{"href":"\/v2\/types\/dog"},"organization":{"href":"\/v2\/organizations\/tx2471"}}},{"id":53204019,"organization_id":"TX2471","url":"https:\/\/www.petfinder.com\/dog\/pettigrew-53204019\/tx\/el-paso\/el-paso-animal-services-tx2471\/?referrer_id=3733c538-6a6f-4cf0-91ac-619de2efe4ff","type":"Dog","species":"Dog","breeds":{"primary":"Pit Bull Terrier","secondary":"Mixed Breed","mixed":true,"unknown":false},"colors":{"primary":"Gray \/ Blue \/ Silver","secondary":"White \/ Cream","tertiary":null},"age":"Baby","gender":"Male","size":"Medium","coat":null,"attributes":{"spayed_neutered":true,"house_trained":false,"declawed":null,"special_needs":false,"shots_current":true},"environment":{"children":null,"dogs":null,"cats":null},"tags":[],"name":"Pettigrew","description":null,"organization_animal_id":"48407709","photos":[],"primary_photo_cropped":null,"videos":[],"status":"adoptable","status_changed_at":"2021-10-08T07:06:41+0000","published_at":"2021-10-08T07:06:41+0000","distance":null,"contact":{"email":"epasadoptions@elpasotexas.gov","phone":"(915) 212-7297","address":{"address1":"5001 Fred Wilson","address2":null,"city":"El Paso","state":"TX","postcode":"79906","country":"US"}},"_links":{"self":{"href":"\/v2\/animals\/53204019"},"type":{"href":"\/v2\/types\/dog"},"organization":{"href":"\/v2\/organizations\/tx2471"}}},{"id":53204020,"organization_id":"TX2471","url":"https:\/\/www.petfinder.com\/dog\/sophie-grace-53204020\/tx\/el-paso\/el-paso-animal-services-tx2471\/?referrer_id=3733c538-6a6f-4cf0-91ac-619de2efe4ff","type":"Dog","species":"Dog","breeds":{"primary":"Mixed Breed","secondary":null,"mixed":true,"unknown":false},"colors":{"primary":"Black","secondary":null,"tertiary":null},"age":"Young","gender":"Female","size":"Small","coat":null,"attributes":{"spayed_neutered":false,"house_trained":false,"declawed":null,"special_needs":false,"shots_current":true},"environment":{"children":null,"dogs":null,"cats":null},"tags":[],"name":"Sophie Grace","description":null,"organization_animal_id":"48440877","photos":[],"primary_photo_cropped":null,"videos":[],"status":"adoptable","status_changed_at":"2021-10-08T07:06:41+0000","published_at":"2021-10-08T07:06:41+0000","distance":null,"contact":{"email":"epasadoptions@elpasotexas.gov","phone":"(915) 212-7297","address":{"address1":"5001 Fred Wilson","address2":null,"city":"El Paso","state":"TX","postcode":"79906","country":"US"}},"_links":{"self":{"href":"\/v2\/animals\/53204020"},"type":{"href":"\/v2\/types\/dog"},"organization":{"href":"\/v2\/organizations\/tx2471"}}},{"id":53204021,"organization_id":"TX2471","url":"https:\/\/www.petfinder.com\/dog\/klause-53204021\/tx\/el-paso\/el-paso-animal-services-tx2471\/?referrer_id=3733c538-6a6f-4cf0-91ac-619de2efe4ff","type":"Dog","species":"Dog","breeds":{"primary":"Mixed Breed","secondary":null,"mixed":true,"unknown":false},"colors":{"primary":"Yellow \/ Tan \/ Blond \/ Fawn","secondary":null,"tertiary":null},"age":"Adult","gender":"Male","size":"Large","coat":null,"attributes":{"spayed_neutered":false,"house_trained":false,"declawed":null,"special_needs":false,"shots_current":true},"environment":{"children":null,"dogs":null,"cats":null},"tags":[],"name":"KLAUSE","description":null,"organization_animal_id":"48074840","photos":[],"primary_photo_cropped":null,"videos":[],"status":"adoptable","status_changed_at":"2021-10-08T07:06:41+0000","published_at":"2021-10-08T07:06:41+0000","distance":null,"contact":{"email":"epasadoptions@elpasotexas.gov","phone":"(915) 212-7297","address":{"address1":"5001 Fred Wilson","address2":null,"city":"El Paso","state":"TX","postcode":"79906","country":"US"}},"_links":{"self":{"href":"\/v2\/animals\/53204021"},"type":{"href":"\/v2\/types\/dog"},"organization":{"href":"\/v2\/organizations\/tx2471"}}},{"id":53204022,"organization_id":"TX2471","url":"https:\/\/www.petfinder.com\/dog\/jessy-53204022\/tx\/el-paso\/el-paso-animal-services-tx2471\/?referrer_id=3733c538-6a6f-4cf0-91ac-619de2efe4ff","type":"Dog","species":"Dog","breeds":{"primary":"Yorkshire Terrier","secondary":"Mixed Breed","mixed":true,"unknown":false},"colors":{"primary":"Golden","secondary":"Black","tertiary":null},"age":"Baby","gender":"Female","size":"Small","coat":null,"attributes":{"spayed_neutered":false,"house_trained":false,"declawed":null,"special_needs":false,"shots_current":true},"environment":{"children":null,"dogs":null,"cats":null},"tags":[],"name":"Jessy","description":null,"organization_animal_id":"48677018","photos":[],"primary_photo_cropped":null,"videos":[],"status":"adoptable","status_changed_at":"2021-10-08T07:06:41+0000","published_at":"2021-10-08T07:06:41+0000","distance":null,"contact":{"email":"epasadoptions@elpasotexas.gov","phone":"(915) 212-7297","address":{"address1":"5001 Fred Wilson","address2":null,"city":"El Paso","state":"TX","postcode":"79906","country":"US"}},"_links":{"self":{"href":"\/v2\/animals\/53204022"},"type":{"href":"\/v2\/types\/dog"},"organization":{"href":"\/v2\/organizations\/tx2471"}}},{"id":53204014,"organization_id":"TX2471","url":"https:\/\/www.petfinder.com\/dog\/kiya-53204014\/tx\/el-paso\/el-paso-animal-services-tx2471\/?referrer_id=3733c538-6a6f-4cf0-91ac-619de2efe4ff","type":"Dog","species":"Dog","breeds":{"primary":"Siberian Husky","secondary":null,"mixed":false,"unknown":false},"colors":{"primary":"White \/ Cream","secondary":null,"tertiary":null},"age":"Adult","gender":"Female","size":"Large","coat":null,"attributes":{"spayed_neutered":false,"house_trained":false,"declawed":null,"special_needs":false,"shots_current":true},"environment":{"children":null,"dogs":null,"cats":null},"tags":[],"name":"Kiya","description":null,"organization_animal_id":"47921949","photos":[],"primary_photo_cropped":null,"videos":[],"status":"adoptable","status_changed_at":"2021-10-08T07:06:40+0000","published_at":"2021-10-08T07:06:40+0000","distance":null,"contact":{"email":"epasadoptions@elpasotexas.gov","phone":"(915) 212-7297","address":{"address1":"5001 Fred Wilson","address2":null,"city":"El Paso","state":"TX","postcode":"79906","country":"US"}},"_links":{"self":{"href":"\/v2\/animals\/53204014"},"type":{"href":"\/v2\/types\/dog"},"organization":{"href":"\/v2\/organizations\/tx2471"}}},{"id":53203993,"organization_id":"CA542","url":"https:\/\/www.petfinder.com\/dog\/kobe-53203993\/ca\/wildomar\/animal-friends-of-the-valleys-ca542\/?referrer_id=3733c538-6a6f-4cf0-91ac-619de2efe4ff","type":"Dog","species":"Dog","breeds":{"primary":"Shepherd","secondary":"Mixed Breed","mixed":true,"unknown":false},"colors":{"primary":null,"secondary":null,"tertiary":null},"age":"Adult","gender":"Male","size":"Medium","coat":null,"attributes":{"spayed_neutered":false,"house_trained":false,"declawed":null,"special_needs":false,"shots_current":true},"environment":{"children":null,"dogs":null,"cats":null},"tags":[],"name":"Kobe","description":null,"organization_animal_id":"616505","photos":[],"primary_photo_cropped":null,"videos":[],"status":"adoptable","status_changed_at":"2021-10-08T07:00:21+0000","published_at":"2021-10-08T07:00:21+0000","distance":null,"contact":{"email":"customercare@animalfriendsofthevalleys.com","phone":"(951) 674-0618","address":{"address1":"33751 Mission Trail","address2":null,"city":"Wildomar","state":"CA","postcode":"92595","country":"US"}},"_links":{"self":{"href":"\/v2\/animals\/53203993"},"type":{"href":"\/v2\/types\/dog"},"organization":{"href":"\/v2\/organizations\/ca542"}}},{"id":53203998,"organization_id":"CA542","url":"https:\/\/www.petfinder.com\/dog\/artemis-53203998\/ca\/wildomar\/animal-friends-of-the-valleys-ca542\/?referrer_id=3733c538-6a6f-4cf0-91ac-619de2efe4ff","type":"Dog","species":"Dog","breeds":{"primary":"Retriever","secondary":"Mixed Breed","mixed":true,"unknown":false},"colors":{"primary":null,"secondary":null,"tertiary":null},"age":"Adult","gender":"Male","size":"Large","coat":null,"attributes":{"spayed_neutered":false,"house_trained":false,"declawed":null,"special_needs":false,"shots_current":true},"environment":{"children":null,"dogs":null,"cats":null},"tags":[],"name":"Artemis","description":null,"organization_animal_id":"615277","photos":[],"primary_photo_cropped":null,"videos":[],"status":"adoptable","status_changed_at":"2021-10-08T07:00:21+0000","published_at":"2021-10-08T07:00:21+0000","distance":null,"contact":{"email":"customercare@animalfriendsofthevalleys.com","phone":"(951) 674-0618","address":{"address1":"33751 Mission Trail","address2":null,"city":"Wildomar","state":"CA","postcode":"92595","country":"US"}},"_links":{"self":{"href":"\/v2\/animals\/53203998"},"type":{"href":"\/v2\/types\/dog"},"organization":{"href":"\/v2\/organizations\/ca542"}}},{"id":53204000,"organization_id":"CA542","url":"https:\/\/www.petfinder.com\/dog\/lina-53204000\/ca\/wildomar\/animal-friends-of-the-valleys-ca542\/?referrer_id=3733c538-6a6f-4cf0-91ac-619de2efe4ff","type":"Dog","species":"Dog","breeds":{"primary":"Cane Corso","secondary":"Shepherd","mixed":true,"unknown":false},"colors":{"primary":null,"secondary":null,"tertiary":null},"age":"Adult","gender":"Female","size":"Extra Large","coat":null,"attributes":{"spayed_neutered":false,"house_trained":false,"declawed":null,"special_needs":false,"shots_current":true},"environment":{"children":null,"dogs":null,"cats":false},"tags":[],"name":"Lina","description":"NOTES FROM THE DOG WALKERS: FRIENDY, A LITTLE TIMID AND SHY, SENSITIVE OF NOISES\/CARS, EASY TO WALK.10\/1\/21SN","organization_animal_id":"569017","photos":[],"primary_photo_cropped":null,"videos":[],"status":"adoptable","status_changed_at":"2021-10-08T07:00:21+0000","published_at":"2021-10-08T07:00:21+0000","distance":null,"contact":{"email":"customercare@animalfriendsofthevalleys.com","phone":"(951) 674-0618","address":{"address1":"33751 Mission Trail","address2":null,"city":"Wildomar","state":"CA","postcode":"92595","country":"US"}},"_links":{"self":{"href":"\/v2\/animals\/53204000"},"type":{"href":"\/v2\/types\/dog"},"organization":{"href":"\/v2\/organizations\/ca542"}}},{"id":53204008,"organization_id":"CA542","url":"https:\/\/www.petfinder.com\/dog\/rocco-53204008\/ca\/wildomar\/animal-friends-of-the-valleys-ca542\/?referrer_id=3733c538-6a6f-4cf0-91ac-619de2efe4ff","type":"Dog","species":"Dog","breeds":{"primary":"Cane Corso","secondary":null,"mixed":true,"unknown":false},"colors":{"primary":null,"secondary":null,"tertiary":null},"age":"Adult","gender":"Male","size":"Extra Large","coat":null,"attributes":{"spayed_neutered":true,"house_trained":true,"declawed":null,"special_needs":false,"shots_current":true},"environment":{"children":null,"dogs":null,"cats":null},"tags":[],"name":"Rocco","description":null,"organization_animal_id":"439970","photos":[],"primary_photo_cropped":null,"videos":[],"status":"adoptable","status_changed_at":"2021-10-08T07:00:21+0000","published_at":"2021-10-08T07:00:21+0000","distance":null,"contact":{"email":"customercare@animalfriendsofthevalleys.com","phone":"(951) 674-0618","address":{"address1":"33751 Mission Trail","address2":null,"city":"Wildomar","state":"CA","postcode":"92595","country":"US"}},"_links":{"self":{"href":"\/v2\/animals\/53204008"},"type":{"href":"\/v2\/types\/dog"},"organization":{"href":"\/v2\/organizations\/ca542"}}},{"id":53203992,"organization_id":"FL142","url":"https:\/\/www.petfinder.com\/dog\/isabelle-53203992\/fl\/cantonment\/united-humanitarians-jr-humane-society-fl142\/?referrer_id=3733c538-6a6f-4cf0-91ac-619de2efe4ff","type":"Dog","species":"Dog","breeds":{"primary":"Labrador Retriever","secondary":null,"mixed":false,"unknown":false},"colors":{"primary":"Gray \/ Blue \/ Silver","secondary":null,"tertiary":null},"age":"Adult","gender":"Female","size":"Large","coat":null,"attributes":{"spayed_neutered":true,"house_trained":true,"declawed":null,"special_needs":false,"shots_current":true},"environment":{"children":null,"dogs":null,"cats":null},"tags":[],"name":"Isabelle","description":"Isabelle is a 4 year old SILVER LAB who is looking for a loving owner. Isabelle\u0026#039;s FAVORITE thing in the...","organization_animal_id":null,"photos":[{"small":"https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/53203992\/1\/?bust=1633676349\u0026width=100","medium":"https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/53203992\/1\/?bust=1633676349\u0026width=300","large":"https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/53203992\/1\/?bust=1633676349\u0026width=600","full":"https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/53203992\/1\/?bust=1633676349"},{"small":"https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/53203992\/2\/?bust=1633676349\u0026width=100","medium":"https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/53203992\/2\/?bust=1633676349\u0026width=300","large":"https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/53203992\/2\/?bust=1633676349\u0026width=600","full":"https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/53203992\/2\/?bust=1633676349"},{"small":"https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/53203992\/3\/?bust=1633676351\u0026width=100","medium":"https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/53203992\/3\/?bust=1633676351\u0026width=300","large":"https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/53203992\/3\/?bust=1633676351\u0026width=600","full":"https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/53203992\/3\/?bust=1633676351"},{"small":"https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/53203992\/4\/?bust=1633676351\u0026width=100","medium":"https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/53203992\/4\/?bust=1633676351\u0026width=300","large":"https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/53203992\/4\/?bust=1633676351\u0026width=600","full":"https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/53203992\/4\/?bust=1633676351"},{"small":"https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/53203992\/5\/?bust=1633676352\u0026width=100","medium":"https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/53203992\/5\/?bust=1633676352\u0026width=300","large":"https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/53203992\/5\/?bust=1633676352\u0026width=600","full":"https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/53203992\/5\/?bust=1633676352"},{"small":"https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/53203992\/6\/?bust=1633676352\u0026width=100","medium":"https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/53203992\/6\/?bust=1633676352\u0026width=300","large":"https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/53203992\/6\/?bust=1633676352\u0026width=600","full":"https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/53203992\/6\/?bust=1633676352"}],"primary_photo_cropped":{"small":"https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/53203992\/1\/?bust=1633676349\u0026width=300","medium":"https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/53203992\/1\/?bust=1633676349\u0026width=450","large":"https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/53203992\/1\/?bust=1633676349\u0026width=600","full":"https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/53203992\/1\/?bust=1633676349"},"videos":[],"status":"adoptable","status_changed_at":"2021-10-08T06:59:13+0000","published_at":"2021-10-08T06:59:13+0000","distance":null,"contact":{"email":"frankiegone2dogs@aol.com","phone":"(850) 968-3260","address":{"address1":null,"address2":null,"city":"Cantonment","state":"FL","postcode":"32533","country":"US"}},"_links":{"self":{"href":"\/v2\/animals\/53203992"},"type":{"href":"\/v2\/types\/dog"},"organization":{"href":"\/v2\/organizations\/fl142"}}},{"id":53203991,"organization_id":"FL142","url":"https:\/\/www.petfinder.com\/dog\/henry-53203991\/fl\/cantonment\/united-humanitarians-jr-humane-society-fl142\/?referrer_id=3733c538-6a6f-4cf0-91ac-619de2efe4ff","type":"Dog","species":"Dog","breeds":{"primary":"Labrador Retriever","secondary":null,"mixed":true,"unknown":false},"colors":{"primary":"Yellow \/ Tan \/ Blond \/ Fawn","secondary":null,"tertiary":null},"age":"Baby","gender":"Male","size":"Large","coat":null,"attributes":{"spayed_neutered":true,"house_trained":false,"declawed":null,"special_needs":false,"shots_current":true},"environment":{"children":true,"dogs":true,"cats":null},"tags":[],"name":"Henry","description":"HENRY is a 3 month old lab-mix puppy born 07\/10\/21 who is looking for a home to live his best...","organization_animal_id":null,"photos":[{"small":"https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/53203991\/1\/?bust=1633676204\u0026width=100","medium":"https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/53203991\/1\/?bust=1633676204\u0026width=300","large":"https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/53203991\/1\/?bust=1633676204\u0026width=600","full":"https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/53203991\/1\/?bust=1633676204"},{"small":"https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/53203991\/2\/?bust=1633676205\u0026width=100","medium":"https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/53203991\/2\/?bust=1633676205\u0026width=300","large":"https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/53203991\/2\/?bust=1633676205\u0026width=600","full":"https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/53203991\/2\/?bust=1633676205"},{"small":"https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/53203991\/3\/?bust=1633676205\u0026width=100","medium":"https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/53203991\/3\/?bust=1633676205\u0026width=300","large":"https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/53203991\/3\/?bust=1633676205\u0026width=600","full":"https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/53203991\/3\/?bust=1633676205"},{"small":"https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/53203991\/4\/?bust=1633676206\u0026width=100","medium":"https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/53203991\/4\/?bust=1633676206\u0026width=300","large":"https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/53203991\/4\/?bust=1633676206\u0026width=600","full":"https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/53203991\/4\/?bust=1633676206"},{"small":"https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/53203991\/5\/?bust=1633676206\u0026width=100","medium":"https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/53203991\/5\/?bust=1633676206\u0026width=300","large":"https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/53203991\/5\/?bust=1633676206\u0026width=600","full":"https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/53203991\/5\/?bust=1633676206"},{"small":"https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/53203991\/6\/?bust=1633676207\u0026width=100","medium":"https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/53203991\/6\/?bust=1633676207\u0026width=300","large":"https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/53203991\/6\/?bust=1633676207\u0026width=600","full":"https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/53203991\/6\/?bust=1633676207"}],"primary_photo_cropped":{"small":"https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/53203991\/1\/?bust=1633676204\u0026width=300","medium":"https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/53203991\/1\/?bust=1633676204\u0026width=450","large":"https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/53203991\/1\/?bust=1633676204\u0026width=600","full":"https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/53203991\/1\/?bust=1633676204"},"videos":[],"status":"adoptable","status_changed_at":"2021-10-08T06:56:48+0000","published_at":"2021-10-08T06:56:48+0000","distance":null,"contact":{"email":"frankiegone2dogs@aol.com","phone":"(850) 968-3260","address":{"address1":null,"address2":null,"city":"Cantonment","state":"FL","postcode":"32533","country":"US"}},"_links":{"self":{"href":"\/v2\/animals\/53203991"},"type":{"href":"\/v2\/types\/dog"},"organization":{"href":"\/v2\/organizations\/fl142"}}}],"pagination":{"count_per_page":20,"total_count":96513,"current_page":1,"total_pages":4826,"_links":{"next":{"href":"\/v2\/animals?type=dog\u0026page=2"}}}}
+  }

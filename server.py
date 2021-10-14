@@ -57,26 +57,28 @@ def search_for_breeds():
 
 
 @app.route("/api/animals")
-def show_all_animals():
+def show_all_animals_api():
     token = api_token.get_a_token()
-    # url = 'https://api.petfinder.com/v2/animals?type=dog'
+    url = 'https://api.petfinder.com/v2/animals?type=dog'
 
-    url = 'https://api.petfinder.com/v2/organizations'
+    # url = 'https://api.petfinder.com/v2/organizations'
     
 
 
+    # payload = {
+    #     'location':'95014'
+    # }
     payload = {
-        'location':'95014'
+        'type': 'dog'
     }
-
     data = api_token.get_data(url, token, payload)
     result={'dogs':[]}
     print("************************")
     print(data)
-    # for animal in data['animals']:
-    #     result['dogs'].append(animal)
+    for animal in data['animals']:
+        result['dogs'].append(animal)
     
-    return 'hello'
+    return result
 
     
 
@@ -132,6 +134,52 @@ def process_login():
     # return jsonify(breeds)
 
     return render_template("homepage.html")
+
+@app.route("/animals")   
+def view_all_animals():
+    
+    return render_template("animals.html") 
+
+@app.route("/breeds")   
+def view_all_breeds():
+    
+    return render_template("breeds.html", breed=breed, breed_id=breed_id)
+
+
+@app.route("/search")   
+def show_search_form():
+   
+    
+    return render_template("search.html") 
+
+
+@app.route('/search/dogs')
+def search_for_dogs():
+    """Search for dogs based on location"""
+    token = api_token.get_a_token()
+    zipcode = request.args.get("zipcode")
+    # breed = request.args.get("breed")
+    url ='https://api.petfinder.com/v2/organizations?location=95014' 
+    
+    payload = {
+        'location':'95014'
+    }  
+    data = api_token.get_data(url, token, payload)
+    result={'organization':[]}
+    print(data['organizations'])
+    for organization_name in data['organizations']:
+        result['organization'].append(organization_name)
+        print(organization_name)
+    
+    
+    
+    # return result
+    return render_template("search_dogs.html", result=result) 
+
+
+
+
+
 
 if __name__ == "__main__":
     connect_to_db(app)

@@ -56,10 +56,10 @@ def create_animals(animal_id, animal_name, animal_description, fixed, receive_da
     return animal
 
 
-def get_animals():
-    """Return all animals."""
+# def get_animals():
+#     """Return all animals."""
 
-    return Animal.query.all()
+#     return Animal.query.all()
 
 
 def get_animal_by_id(animal_id):
