@@ -23,10 +23,10 @@ SECRET_KEY = os.environ['PETFINDER_SECRET_KEY']
 def homepage():
     """View homepage."""
     token = api_token.get_a_token()
-    url = 'https://api.petfinder.com/v2/animals?type=dog&location=95014&sort=distance'
+    url = 'https://api.petfinder.com/v2/animals?type=dog&location=95014&sort=random'
   
     payload = {
-        #'sort': 'distance',
+        #'sort': 'random',
     }
     data = api_token.get_data(url, token, payload)
     result={'dogs':[]}
@@ -201,8 +201,7 @@ def search_for_dogs():
             if dog['photos']:
                 result['dogs'].append(dog)
             #print(organization_name)
-    
-    
+
     
     # return result
     return render_template("search_dogs.html", result=result) 

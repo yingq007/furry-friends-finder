@@ -9,12 +9,21 @@
           <h2>Dog Search Results</h2>
           <ul class="dog-list list-group">
             {% for event in result['dogs'] %}
-            <p>{{ event['name'] }}</p>
+            <p> 
+              <a href="{{ event['url'] }}">
+                {{event['name']}}
+              </a> 
+            </p>
+
             <img src={{ event['photos'][0]['large'] }}>
               <li class="list-group-item list-group-item-action">
                 <div class="row">
                   <div class="col-2">
+                <button id='myfav'>
+                  Add to Favorites
+                </button>
               </li>
+
             {% endfor %}
           </ul>
         </div>
