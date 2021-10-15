@@ -8,8 +8,9 @@
         <div id="dog-search-result">
           <h2>Dog Search Results</h2>
           <ul class="dog-list list-group">
-            {% for event in result['organization'] %}
-            <p>{{ event['name'],event['email'] }}</p>
+            {% for event in result['dogs'] %}
+            <p>{{ event['name'] }}</p>
+            <img src={{ event['photos'][0]['large'] }}>
               <li class="list-group-item list-group-item-action">
                 <div class="row">
                   <div class="col-2">

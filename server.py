@@ -186,18 +186,21 @@ def search_for_dogs():
     """Search for dogs based on location"""
     token = api_token.get_a_token()
     zipcode = request.args.get("zipcode")
-    # breed = request.args.get("breed")
-    url ='https://api.petfinder.com/v2/organizations?location=95014' 
+    breed = request.args.get("breed")
+    url ='https://api.petfinder.com/v2/animals?' 
     
     payload = {
-        'location':'95014'
+        'type':'dog',
+        'location':'{zipcode}'.format(zipcode=zipcode),
+        'breed':'{breed}'.format(breed=breed)
     }  
     data = api_token.get_data(url, token, payload)
-    result={'organization':[]}
-    print(data['organizations'])
-    for organization_name in data['organizations']:
-        result['organization'].append(organization_name)
-        print(organization_name)
+    result={'dogs':[]}
+    if data['animals']:
+        for dog in data['animals']:
+            if dog['photos']:
+                result['dogs'].append(dog)
+            #print(organization_name)
     
     
     
