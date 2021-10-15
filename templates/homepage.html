@@ -13,7 +13,16 @@
     <li><a href="/search">Search Dogs</a></li>
   </ul>
   <h3>Animals Available</h3>
-  <script src="/static/animals.js"></script>
+  <ul class="dog-list list-group">
+    {% for event in result['dogs'] %}
+    <p>{{ event['name'], event['url'] }}</p>
+    <img src={{event['photos'][0]['large']}} >
+      <li class="list-group-item list-group-item-action">
+        <div class="row">
+          <div class="col-2">
+      </li>
+    {% endfor %}
+  </ul>
 
   
 {% endblock %}

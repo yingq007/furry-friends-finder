@@ -1,0 +1,28 @@
+{% extends 'base.html' %}
+
+{% block title %}Dogs!{% endblock %}
+
+{% block body %}
+
+
+        <div id="dog-list">
+          <h2>Adopt me!</h2>
+
+
+          <ul class="dog-list list-group">
+            {% for event in result['dogs'] %}
+            <p>{{ event['name'],event['photos'][0]['medium'] }}</p>
+            <img src={{event['photos'][0]['large']}} >
+              <li class="list-group-item list-group-item-action">
+                <div class="row">
+                  <div class="col-2">
+              </li>
+            {% endfor %}
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+{% endblock %}
+
+

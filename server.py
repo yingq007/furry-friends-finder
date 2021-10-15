@@ -22,8 +22,20 @@ SECRET_KEY = os.environ['PETFINDER_SECRET_KEY']
 @app.route('/')
 def homepage():
     """View homepage."""
+    token = api_token.get_a_token()
+    url = 'https://api.petfinder.com/v2/animals?type=dog&location=95014&sort=distance'
+  
+    payload = {
+        #'sort': 'distance',
+    }
+    data = api_token.get_data(url, token, payload)
+    result={'dogs':[]}
+    print (data)
 
-    return render_template("homepage.html") 
+    for animal in data['animals']:
+        if animal['photos']:
+            result['dogs'].append(animal)
+    return render_template("homepage.html",result=result) 
 
 @app.route("/api/breeds")
 def search_for_breeds():
@@ -138,7 +150,23 @@ def process_login():
 @app.route("/animals")   
 def view_all_animals():
     
-    return render_template("animals.html") 
+
+    token = api_token.get_a_token()
+    url = 'https://api.petfinder.com/v2/animals?type=dog'
+  
+    payload = {
+        'type': 'dog'
+    }
+    data = api_token.get_data(url, token, payload)
+    result={'dogs':[]}
+    for animal in data['animals']:
+        if not animal['photos']:
+            animal['photos']=[{'large':""}]
+            animal['photos'][0]['large']="https://web.mo.gov/doc/PuppiesForParolePublic/images/noPhoto.png"
+        result['dogs'].append(animal)
+    print(result['dogs'][0]['photos'])
+    print(result['dogs'][0]['name'])
+    return render_template("animals.html", result=result) 
 
 @app.route("/breeds")   
 def view_all_breeds():

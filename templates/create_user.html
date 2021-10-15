@@ -1,0 +1,18 @@
+{% extends 'base.html' %}
+{% block title %}All Animals{% endblock %}
+
+{% block body %}
+  <h1>Create User</h1>
+  <form action="/create_user" method="POST">
+    <p>
+      Email <input type="text" name="email">
+    </p>
+    <p>
+      Password <input type="password" name="password">
+    </p>
+    <p>
+      <input type="submit">
+    </p>
+  </form>
+  
+{% endblock %}
