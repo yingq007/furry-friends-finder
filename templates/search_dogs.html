@@ -9,6 +9,7 @@
           <h2>Dog Search Results</h2>
           <ul class="dog-list list-group">
             {% for event in result['dogs'] %}
+            {{event['name'], event['age'], event['breeds']}}
             <p> 
               <a href="{{ event['url'] }}">
                 {{event['name']}}
@@ -16,14 +17,25 @@
             </p>
 
             <img src={{ event['photos'][0]['large'] }}>
-              <li class="list-group-item list-group-item-action">
+            
                 <div class="row">
-                  <div class="col-2">
-                <button id='myfav'>
-                  Add to Favorites
-                </button>
-              </li>
-
+                  <div class="col-1">
+           
+              
+            
+            
+            
+            
+            <form action="/search_dogs/favorite" method="POST">
+              <input type="text" name="dog_name" value="{{ event['name'] }}" hidden>
+              <input value= {{ event['name']}}>
+         
+              <button id="myfav" type="submit"> Add to Favorites </button>
+                    <!-- Add a form, 'add to favorite' is the submit button form consists inputelement, values are the data from the api (event) hidden attribute to hide the form when submit i can access value from server
+                    1 create a form and see if i can access data of selected dog  -->
+           
+            </form>
+           
             {% endfor %}
           </ul>
         </div>

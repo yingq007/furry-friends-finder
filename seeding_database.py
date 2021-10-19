@@ -9,8 +9,8 @@ import crud
 import server
 import model
 
-os.system("dropdb users")
-os.system("createdb users")
+os.system("dropdb furry_friends_finder")
+os.system("createdb furry_friends_finder")
 
 model.connect_to_db(server.app)
 model.db.create_all()

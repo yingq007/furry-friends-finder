@@ -1,6 +1,6 @@
 """CRUD operations."""
 
-from model import db, User, Favorite, Animal, Breed, Animal_type, connect_to_db
+from model import db, User, Favorite, Animal, connect_to_db
 
 
 def create_user(email, password):
@@ -86,36 +86,36 @@ def get_favorite_by_id(favorite_id):
     return Favorite.query.get(favorite_id)
 
 
-def create_animal_type(animal_type_id, animal_type):
-    """Create and return a new animal_type."""
+# def create_animal_type(animal_type_id, animal_type):
+#     """Create and return a new animal_type."""
 
-    animal_type = Animal_type(animal_type_id=animal_type_id, animal_type=animal_type)
+#     animal_type = Animal_type(animal_type_id=animal_type_id, animal_type=animal_type)
 
-    db.session.add(animal_type)
-    db.session.commit()
+#     db.session.add(animal_type)
+#     db.session.commit()
 
-    return animal_type
+#     return animal_type
 
-def get_animal_type_by_id(animal_type_id):
-    """Return a animal type by primary key."""
+# def get_animal_type_by_id(animal_type_id):
+#     """Return a animal type by primary key."""
 
-    return Animal_type.query.get(animal_type_id)
+#     return Animal_type.query.get(animal_type_id)
 
-def create_breed(breed_id, breed):
-    """Create and return a new breed."""
+# def create_breed(breed_id, breed):
+#     """Create and return a new breed."""
 
-    breed = Breed(breed_id=breed_id, breed=breed)
+#     breed = Breed(breed_id=breed_id, breed=breed)
 
-    db.session.add(breed)
-    db.session.commit()
+#     db.session.add(breed)
+#     db.session.commit()
 
-    return breed
+#     return breed
 
 
-def get_breed_by_id(breed_id):
-    """Return a breed by primary key."""
+# def get_breed_by_id(breed_id):
+#     """Return a breed by primary key."""
 
-    return Breed.query.get(breed_id)
+#     return Breed.query.get(breed_id)
 
 
 

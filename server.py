@@ -206,7 +206,20 @@ def search_for_dogs():
     # return result
     return render_template("search_dogs.html", result=result) 
 
+@app.route('/search_dogs/favorite', methods=["POST"])
+def favorite_a_dog():
+    """Process favorite a dog."""
 
+    dog_name = request.form.get("dog_name")
+    
+    print("*****************")
+    print(dog_name)
+
+    # favorite = crud.create_favorite(favorite)
+
+    # flash(f" You've added to your favorite!")
+
+    return redirect("/")
 
 
 
