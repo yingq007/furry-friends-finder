@@ -210,10 +210,22 @@ def search_for_dogs():
 def favorite_a_dog():
     """Process favorite a dog."""
 
-    dog_name = request.form.get("dog_name")
+    animal_id = request.form.get("animal_id")
+    animal_name = request.form.get("animal_name")
+    animal_description = request.form.get("aniaml_description")
+    spayed_neutered  = request.form.get("spayed_neutered")
+    age = request.form.get("age")
+    gender = request.form.get("gender")
+    primary_breed = request.form.get("primary_breed")
+    email = request.form.get("email")
+    phone_number = request.form.get("phone_number")
+    url = request.form.get("url")
+    photo = request.form.get("photo")
+    organization_animal_id = request.form.get("organization_animal_id")
+    
     
     print("*****************")
-    print(dog_name)
+    print(animal_name, animal_description, spayed_neutered,  age, gender, primary_breed,email,phone_number,  url, photo, organization_animal_id )
 
     # favorite = crud.create_favorite(favorite)
 

@@ -33,21 +33,21 @@ def get_user_by_email(email):
     return User.query.filter(User.email == email).first()
 
 
-def create_animals(animal_id, animal_name, animal_description, fixed, receive_date, available_date, age, gender, weight, breed_id, animal_type_id):
+def create_animal(animal_name, animal_description, spayed_neutered, age, gender, primary_breed, breed_id, email, phone_number, url, photo, organization_animal_id):
     """Create and return a new animal."""
 
     animal = Animal(
-        animal_id=animal_id,
         animal_name=animal_name,
         animal_description=animal_description,
-        fixed=fixed,
-        receive_date=receive_date,
-        available_date=available_date,
+        spayed_neutered=spayed_neutered,
         age=age,
-        gender=gender,
-        weight=weight,
+        primary_breed=primary_breed,
+        email=email,
+        phone_number=phone_number,
+        url=url,
+        photo=photo,
         breed_id=breed_id,
-        animal_type_id=animal_type_id
+        organization_animal_id=organization_animal_id
     )
 
     db.session.add(animal)

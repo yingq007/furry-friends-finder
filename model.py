@@ -44,12 +44,16 @@ class Animal(db.Model):
     animal_name = db.Column(db.String(25))
     animal_description = db. Column(db.String, unique=True)
     spayed_neutered = db.Column(db.Boolean)
-    age = db.Column(db.Integer)
+    age = db.Column(db.String)
     gender = db. Column(db.String)
-    breed = db.Column(db.String)
+    primary_breed = db.Column(db.String)
+    email = db.Column(db.String)
+    phone_number = db.Column(db.String)
+    url = db.Column(db.String)
+    photo = db.Column(db.String)
+    organization_animal_id = db.Column(db.String)
 
-    # breed = db.relationship('Breed', backref = 'animals')
-    # animal_type = db.relationship('Animal_type', backref = 'animals')
+
 
     def __repr__(self): 
         return f'<Animal animal_id={self.animal_id} animal_name={self.animal_name}>'
