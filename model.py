@@ -18,7 +18,7 @@ class User(db.Model):
 
     animals = db.relationship("Animal", secondary="favorites", backref="users")
 
-def __repr__(self):
+    def __repr__(self):
         return f'<User user_id={self.user_id} email={self.email}>'
 
 
@@ -43,7 +43,7 @@ class Animal(db.Model):
     animal_id = db.Column(db.Integer, primary_key=True, autoincrement=True)
     animal_name = db.Column(db.String(25))
     animal_description = db. Column(db.String, unique=True)
-    spayed_neutered = db.Column(db.Boolean)
+    spayed_neutered = db.Column(db.String)
     age = db.Column(db.String)
     gender = db. Column(db.String)
     primary_breed = db.Column(db.String)
@@ -56,7 +56,7 @@ class Animal(db.Model):
 
 
     def __repr__(self): 
-        return f'<Animal animal_id={self.animal_id} animal_name={self.animal_name}>'
+        return f'<Animal animal_id={self.animal_id} animal_name={self.animal_name} animal_description={self.animal_description} spayed_neutered={self.spayed_neutered} age={self.age} gender={self.gender} primary_breed={self.primary_breed} email={self.email} phone_number={self.phone_number} url={self.url} photo={self.photo} organization_animal_id={self.organization_animal_id}>'
 
 
 # class Breed(db.Model):

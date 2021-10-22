@@ -33,7 +33,7 @@ def get_user_by_email(email):
     return User.query.filter(User.email == email).first()
 
 
-def create_animal(animal_name, animal_description, spayed_neutered, age, gender, primary_breed, breed_id, email, phone_number, url, photo, organization_animal_id):
+def create_animal(animal_name, animal_description, spayed_neutered, age, gender, primary_breed, email, phone_number, url, photo, organization_animal_id):
     """Create and return a new animal."""
 
     animal = Animal(
@@ -46,7 +46,6 @@ def create_animal(animal_name, animal_description, spayed_neutered, age, gender,
         phone_number=phone_number,
         url=url,
         photo=photo,
-        breed_id=breed_id,
         organization_animal_id=organization_animal_id
     )
 
@@ -68,11 +67,11 @@ def get_animal_by_id(animal_id):
     return Animal.query.get(animal_id)
 
 
-def create_favorite(favorite_id, animal_id, user_id):
+def create_favorite(animal_id, user_id):
     """Create and return a new favorite."""
 
 
-    favorite = Favorite(favorite_id=favorite_id, animal_id=animal_id, user_id=user_id)
+    favorite = Favorite(animal_id=animal_id, user_id=user_id)
 
     db.session.add(favorite)
     db.session.commit()
@@ -84,6 +83,16 @@ def get_favorite_by_id(favorite_id):
     """Return a favorite by primary key."""
 
     return Favorite.query.get(favorite_id)
+
+def get_animal_by_animal_name_and_organization_animal_id(animal_name, organization_animal_id):
+
+    return Animal.query.filter(Animal.animal_name == animal_name, Animal.organization_animal_id == organization_animal_id).first()
+
+def get_users_favorites_by_user_id(user_id):
+    
+    return Favorite.query.filter(Favorite.user_id == user_id).all()
+
+  
 
 
 # def create_animal_type(animal_type_id, animal_type):

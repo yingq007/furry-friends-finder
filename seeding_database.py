@@ -15,7 +15,7 @@ os.system("createdb furry_friends_finder")
 model.connect_to_db(server.app)
 model.db.create_all()
 
-for n in range(10):
+for n in range(1,11):
     email = f"user{n}@test.com"  # Voila! A unique email!
     password = "test"
 
