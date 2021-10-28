@@ -1,9 +1,11 @@
 {% extends 'base.html' %}
-{% block title %}Login{% endblock %}
+{% block title %}All Animals{% endblock %}
 
 {% block body %}
-  <h1>User Profile</h1>
-
-  <div id="favorite_dogs"></div>
-  
+<h3>User Profile</h3>
+<p>
+<button id="get-favorite-button">Favorite Dogs</button>
+</p>
+<div id="favorite_dogs"></div>
+<script src='/static/user_profile.js'></script>
 {% endblock %}

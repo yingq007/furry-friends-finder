@@ -5,7 +5,7 @@ from flask import Flask, render_template, request, flash, session, redirect, jso
 from random import choice, randint
 from model import connect_to_db
 import crud
-
+import default_breed_types
 from jinja2 import StrictUndefined
 
 import requests
@@ -18,6 +18,7 @@ app.jinja_env.undefined = StrictUndefined
 
 API_KEY = os.environ['PETFINDER_API_KEY']
 SECRET_KEY = os.environ['PETFINDER_SECRET_KEY']
+breed_types_global ={'breeds':default_breed_types.breed_types}
 
 @app.route('/')
 def homepage():
@@ -34,6 +35,16 @@ def homepage():
     for animal in data['animals']:
         if animal['photos']:
             result['dogs'].append(animal)
+
+    breed_url = 'https://api.petfinder.com/v2/types/' + 'dog' + '/breeds'
+    breed_payload = {
+        'type': 'dog'
+    }
+    breed_data = api_token.get_data(breed_url, token, breed_payload)
+    updated_breed_types=[]
+    for breednames in breed_data['breeds']:
+        updated_breed_types.append(breednames['name'])
+        breed_types_global.update({'breeds':updated_breed_types})
     return render_template("homepage.html",result=result) 
 
 
@@ -47,12 +58,12 @@ def search_for_breeds():
         'type': breed_type
     }
 
-    data = api_token.get_data(url, token, payload)
+    # data = api_token.get_data(url, token, payload)
     
-    breed_types ={'breeds':[]}
-    for breednames in data['breeds']:
-        breed_types['breeds'].append(breednames['name'])
-    
+    # breed_types ={'breeds':[]}
+    # for breednames in data['breeds']:
+    #     breed_types['breeds'].append(breednames['name'])
+    breed_types=breed_types_global
     return breed_types
     
 
@@ -144,8 +155,21 @@ def view_all_breeds():
 
 @app.route("/search")   
 def show_search_form():
-   
-    return render_template("search.html") 
+    # breed_type = 'dog'
+    # token = api_token.get_a_token()
+    # url = 'https://api.petfinder.com/v2/types/' + breed_type + '/breeds'
+
+    # payload = {
+    #     'type': breed_type
+    # }
+
+    # data = api_token.get_data(url, token, payload)
+    
+    # breed_types ={'breeds':[]}
+    # for breednames in data['breeds']:
+    #     breed_types['breeds'].append(breednames['name'])
+    
+    return render_template("search.html",breed_types_global=breed_types_global) 
 
 
 @app.route('/search/dogs')
@@ -202,7 +226,6 @@ def show_favorite_dogs():
     
     user = crud.get_user_by_id(session['user_id'])
     favorites = user.animals
-    # [<Animal animal_id=1 animal_name=Storm>, <Animal animal_id=2 animal_name=Dakota>, <Animal animal_id=3 animal_name=Bobby Bones>]
     favorites_dictionary ={'favorite':[]}
     for animal in favorites:
         fav_animal={}
@@ -221,10 +244,14 @@ def show_favorite_dogs():
 
         favorites_dictionary['favorite'].append(fav_animal)
     
-    print(favorites_dictionary)
+   
     return jsonify(favorites_dictionary)
     # return render_template("user_profile.html") 
+@app.route('/user_profile')
+def view_user_profile():
+    """View create account page"""
 
+    return render_template("user_profile.html") 
 
 
 if __name__ == "__main__":

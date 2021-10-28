@@ -15,17 +15,13 @@
                 {{event['name']}}
               </a> 
             </p>
-
+              
             <img src={{ event['photos'][0]['large'] }}>
             
                 <div class="row">
                   <div class="col-1">
            
               
-            
-            
-            
-            
             <form action="/search_dogs/favorite" method="POST">
               <input type="text" name="animal_name" value="{{ event['name'] }}" hidden>
               <input type="text" name="animal_description" value="{{ event['description'] }}" hidden>

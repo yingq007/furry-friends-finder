@@ -3,30 +3,39 @@
 
 {% block body %}
   <h1>Welcome to Find Furry Friends!</h1>
+  <h2>Animals Available</h2>
 
-  <h2>Navigation</h2>
-  <ul>
-    <li><a href="/animals">View all animals</a></li>
-    <!-- <li><a href="/api/breeds", id="breeds">View all breeds</a></li> -->
-    <li><a href="/create_user">Create Users</a></li>
-    <li><a href="/login">Log in</a></li>
-    <li><a href="/search">Search Dogs</a></li>
-  </ul>
-  <h3>Animals Available</h3>
-  <ul class="dog-list list-group">
-    {% for event in result['dogs'] %}
-    <p>
-      <a href={{ event['url'] }}>
-      {{ event['name'] }}
-      </a>
-    </p>
-    <img src={{event['photos'][0]['large']}} >
-      <li class="list-group-item list-group-item-action">
-        <div class="row">
-          <div class="col-2">
-      </li>
-    {% endfor %}
-  </ul>
-
+  <body>
+    <div class="container">
+  
+      <div class="row">
+  
+        <div class="col">
+          <p> 
+            {% for event in result['dogs'] %}
+            <a href={{ event['url'] }}>
+            {{ event['name'] }}
+            </a>
+          </p>
+          {% endfor %}
+        </div>
+     
+        <div class="col">
+        <p>
+          {% for event in result['dogs'] %}
+            <img src={{event['photos'][0]['large']}} >
+          {% endfor %}
+        </p>
+        </div>
+  
+        </div>
+  
+      </div>
+  
+    </div>
+  </body>
+  
+ 
+<script src='/static/user_profile.js'></script>
   
 {% endblock %}
