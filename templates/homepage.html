@@ -10,23 +10,22 @@
   
       <div class="row">
   
-        <div class="col">
+        <div class="col-6">
           <p> 
             {% for event in result['dogs'] %}
-            <a href={{ event['url'] }}>
-            {{ event['name'] }}
+            Name: {{ event['name'] }}<br>
+            Age:{{ event['age']}}<br>
+            Primary Breed: {{ event['breeds']['primary']}}<br>
+            
+            <img src={{event['photos'][0]['large'] }} width="300" 
+            height="300" />
             </a>
           </p>
           {% endfor %}
+        
+  
         </div>
-     
-        <div class="col">
-        <p>
-          {% for event in result['dogs'] %}
-            <img src={{event['photos'][0]['large']}} >
-          {% endfor %}
-        </p>
-        </div>
+        
   
         </div>
   

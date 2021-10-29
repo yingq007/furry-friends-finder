@@ -18,7 +18,7 @@ function showFavorite(evt) {
        + `Phone: ${current_fav['phone_number']}<br>`
        + `URL: ${current_fav['url']}<br>`
        + `Organization Animal ID: ${current_fav['organization_animal_id']}<br>`
-       + `<img src=${current_fav['photo']}>`
+       + `<img src=${current_fav['photo']} image.style.width = '90'>`
        + "</p>";
 
      $('#favorite_dogs').append(out);

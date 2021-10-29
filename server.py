@@ -187,13 +187,19 @@ def search_for_dogs():
     }  
     data = api_token.get_data(url, token, payload)
     result={'dogs':[]}
-    if data['animals']:
-        for dog in data['animals']:
-            if dog['photos']:
-                result['dogs'].append(dog)
 
-    return render_template("search_dogs.html", result=result) 
+    if 'animals' not in data:
+        flash(f" There are no dogs match your search, Please try again!")
+        return render_template("search.html",breed_types_global=breed_types_global)    
+    for dog in data['animals']:
+        if dog['photos']:
+            result['dogs'].append(dog)
 
+    
+    return render_template("search_dogs.html", result=result)
+    
+         
+   
 
 @app.route('/search_dogs/favorite', methods=["POST"])
 def favorite_a_dog():
