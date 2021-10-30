@@ -232,7 +232,14 @@ def show_favorite_dogs():
     
     user = crud.get_user_by_id(session['user_id'])
     favorites = user.animals
-    favorites_dictionary ={'favorite':[]}
+    favorites_dictionary ={
+        'favorite':[],
+        'user':{
+            'email':user.email,
+            'user_id':user.user_id,
+        }
+        }
+    
     for animal in favorites:
         fav_animal={}
         fav_animal['animal_id']= animal.animal_id
