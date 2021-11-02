@@ -1,9 +1,12 @@
 /*   Sitewide  */
 
-.navbar {
-	background-color: #b4c157;
-	color: white;
-	border-radius: 0px;
+.navbar-brand {
+	min-height: auto;
+	font-family: 'Titillium Web', sans-serif;
+	font-weight: lighter;
+}
+.navbar navbar-expand-lg navbar-light bg-light{
+	color:whitesmoke
 }
 
 #ubermelon-logo, #ubermelon-logo:hover, .navbar-dark .navbar-brand {
@@ -12,7 +15,9 @@
 
 .navbar-nav>li>a, .navbar-dark .navbar-nav .nav-link {
 	color: white;
+	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
+
 
 section {
 	margin-top: 50px;
@@ -41,4 +46,17 @@ section {
 
 #modalLabel {
 	color: black;
+}
+#girlanddog {
+	height: 400px;
+	width: 1500px;
+	object-fit: cover;
+}
+
+#mangirldog {
+	height: 250px;
+	width: 1300px;
+	object-fit: cover;
+	
+	
 }

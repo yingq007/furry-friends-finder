@@ -2,8 +2,24 @@
 {% block title %}All Animals{% endblock %}
 
 {% block body %}
-  <h1>Search For Dogs</h1>
+
+<head>
+  <img id="mangirldog" src="/static/images/mangirldog.jpg" >
+  <link rel="stylesheet" href="/static/mystyle.css">
+
+</head>
+  <h1>Find dogs Near You </h1>
+  <h2>Enter Zipcode and Select Breed</h2>
+  <style> h2 {
+    font-size: large;
+    text-align: center;}
+    </style>
+  
   <p>
+    <style> p {
+      font-size: large;
+      text-align: center;}
+      </style>
     <form method="GET" action="/search/dogs">
     <label>Zipcode</label>
       <input type="text" name ="zipcode"><br>
