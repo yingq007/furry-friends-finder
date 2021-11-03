@@ -9,9 +9,6 @@
 	color:whitesmoke
 }
 
-#ubermelon-logo, #ubermelon-logo:hover, .navbar-dark .navbar-brand {
-	color: #151515;
-}
 
 .navbar-nav>li>a, .navbar-dark .navbar-nav .nav-link {
 	color: white;
@@ -36,17 +33,7 @@ section {
 }
 
 
-/* Features Row */
 
-.feature {
-	text-align: centexr;
-}
-
-/* Further Study */
-
-#modalLabel {
-	color: black;
-}
 #girlanddog {
 	height: 400px;
 	width: 1500px;
@@ -57,6 +44,40 @@ section {
 	height: 250px;
 	width: 1300px;
 	object-fit: cover;
-	
-	
+}
+
+#zipcode {
+position:absolute;
+min-width:22%;
+height 20%;
+top:0%;
+right:0%;
+z-index:10;
+background-color:#CCC;
+border: 1px solid grey;
+}
+#dogwindow {
+	height: 250px;
+	width: 1300px;
+	object-fit: cover;
+}
+#childrendog {
+	height: 250px;
+	width: 1300px;
+	object-fit: cover;
+}
+#loginicon {
+	display: inline-flex;
+	height: 100px;
+	width:80;
+}
+
+#mission_statement{
+	font-family: 'Titillium Web', sans-serif;
+	color: rgba(53, 73, 73, 0.63);
+	font-size: larger;
+	font-weight: bolder;
+	margin-bottom: 20px;
+	text-align: center;
+	font-stretch: semi-condensed;
 }

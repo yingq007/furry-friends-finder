@@ -8,41 +8,85 @@
   <link rel="stylesheet" href="/static/mystyle.css">
 
 </head>
+<p>
+  Our mission
+</p>
+<style> p{
+  font-weight: semi-bold;
+  font-family: font-family: 'Titillium Web', sans-serif;
+  text-align: center;
+  color: white;
+  background-color:rgb(22, 77, 110);
+}
+</style>
+<div id="mission_statement" href="/static/mystyle.css">
+Planing to Adopt a dog? <br>
+<a href="/search">
+  <img id="loginicon" src="/static/images/search_icon.png" >
+  <link rel="stylesheet" href="/static/mystyle.css"> 
+</a><br>
+We help our users to find dogs base on their location and breed they want.
 
-  <h2>Animals Available</h2>
-  
+
+</div>
 
 
+    <p>
+      Dogs Avaliable
+    </p>
+    <style> p{
+      font-weight: bold;
+      font-family: font-family: 'Titillium Web', sans-serif;
+      text-align: center;
+      color: white;
+      background-color:rgb(22, 77, 110);
+    }
+    </style>
 
-    <div class="container">
-  
-      <div class="row">
-  
-        <div class="col-6">
-          <p> 
-            {% for event in result['dogs'] %}
-            Name: {{ event['name'] }}<br>
-            Age:{{ event['age']}}<br>
-            Primary Breed: {{ event['breeds']['primary']}}<br>
-            
-            <img src={{event['photos'][0]['large'] }} width="300" 
-            height="300" />
-            </a>
-          </p>
-          {% endfor %}
-        
-  
-        </div>
-        
-  
-        </div>
-  
-      </div>
-  
-    </div>
-  </body>
-  
- 
+<style>
+  figure {
+      display: inline-table;
+      box-shadow: whitesmoke;
+      margin-top: 1.5em;
+      margin-bottom: 1.5em;
+      margin-left: 60px;
+      margin-right: 40px;
+      align-items: center;
+      position: center;
+  }
+  </style>
+  <figure>
+    <img class="d-block w-35" src="{{ dog_photo[0] }}" width="220" 
+    height="220"" alt="First slide">
+  </figure>
+  <figure>
+    <img class="d-block w-35" src="{{ dog_photo[1] }}" width="220" 
+    height="220"" alt="First slide">
+  </figure>
+  <figure>
+    <img class="d-block w-35" src="{{ dog_photo[2] }}" width="220" 
+    height="220"" alt="First slide">  
+  </figure>
+  <figure>    
+    <img class="d-block w-35" src="{{ dog_photo[3] }}" width="220" 
+    height="220"" alt="First slide">
+  </figure>
+  <figure>
+    <img class="d-block w-35" src="{{ dog_photo[4] }}" width="220" 
+    height="220"" alt="First slide">
+  </figure>
+  <figure>
+    <img class="d-block w-35" src="{{ dog_photo[5] }}" width="220" 
+    height="220"" alt="First slide">
+  </figure>
+  <figure>
+    <img class="d-block w-35" src="{{ dog_photo[6] }}" width="220" 
+    height="220"" alt="First slide">
+  </figure>
+  <figure>
+    <img class="d-block w-35" src="{{ dog_photo[7] }}" width="220" 
+    height="220"" alt="First slide">
+  </figure>
 <script src='/static/user_profile.js'></script>
   
 {% endblock %}

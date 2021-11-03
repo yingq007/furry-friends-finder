@@ -3,6 +3,11 @@
 
 {% block body %}
   <h1>Login</h1>
+  <head>
+    <img id="childrendog" src="/static/images/childrendog.jpg" >
+    <link rel="stylesheet" href="/static/mystyle.css">
+  
+  </head>
   <form action="/login" method="POST">
     <p>
       Email <input type="text" name="email">
@@ -14,5 +19,12 @@
       <input type="submit">
     </p>
   </form>
+  <style> form {
+    font-weight: bold;
+    font-family: font-family: 'Titillium Web', sans-serif;
+    text-align: center;
+    margin: 15px;
+    padding: 10px;
+  }
   
 {% endblock %}

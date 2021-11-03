@@ -31,10 +31,12 @@ def homepage():
     }
     data = api_token.get_data(url, token, payload)
     result={'dogs':[]}
+    dog_photo=[]
 
     for animal in data['animals']:
         if animal['photos']:
             result['dogs'].append(animal)
+            dog_photo.append(animal['photos'][0]['large'])
 
     breed_url = 'https://api.petfinder.com/v2/types/' + 'dog' + '/breeds'
     breed_payload = {
@@ -45,7 +47,8 @@ def homepage():
     for breednames in breed_data['breeds']:
         updated_breed_types.append(breednames['name'])
         breed_types_global.update({'breeds':updated_breed_types})
-    return render_template("homepage.html",result=result) 
+    return render_template("homepage.html",result=result, dog_photo=dog_photo) 
+
 
 
 @app.route("/api/breeds")
@@ -139,12 +142,14 @@ def view_all_animals():
     }
     data = api_token.get_data(url, token, payload)
     result={'dogs':[]}
+    dog_photo =[]
     for animal in data['animals']:
         if not animal['photos']:
             animal['photos']=[{'large':""}]
             animal['photos'][0]['large']="https://web.mo.gov/doc/PuppiesForParolePublic/images/noPhoto.png"
         result['dogs'].append(animal)
-    return render_template("animals.html", result=result) 
+        dog_photo.append(animal['photos'])
+    return render_template("animals.html", result=result, dog_photo = dog_photo) 
 
 
 @app.route("/breeds")   

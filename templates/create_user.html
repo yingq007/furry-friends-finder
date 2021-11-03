@@ -3,6 +3,11 @@
 
 {% block body %}
   <h1>Create User</h1>
+  <head>
+    <img id="dogwindow" src="/static/images/dogwindow.jpg" >
+    <link rel="stylesheet" href="/static/mystyle.css">
+  
+  </head>
   <form action="/create_user" method="POST">
     <p>
       Email <input type="text" name="email">
@@ -13,6 +18,14 @@
     <p>
       <input type="submit">
     </p>
+    
   </form>
+  <style> form {
+    font-weight: bold;
+    font-family: font-family: 'Titillium Web', sans-serif;
+    text-align: center;
+    margin: 15px;
+    padding: 10px;
+  }
   
 {% endblock %}

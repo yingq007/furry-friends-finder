@@ -7,19 +7,34 @@
 
         <div id="dog-search-result">
           <h2>Dog Search Results</h2>
-          <ul class="dog-list list-group">
-            {% for event in result['dogs'] %}
-            {{event['name'], event['age'], event['breeds']}}
-            <p> 
+          {% for event in result['dogs'] %}
+          <ul style="list-style-type:none;" class="dog-list list-group">
+            <li> Name: {{ event['name'] }}</li>
+            <li> Age: {{ event['age'] }}</li>
+            <li> Primary Breed: {{ event['breeds']['primary'] }}</li>
+            <li> Gender: {{ event['gender'] }}</li>
+            <li> Sparyed or Neutered: {{ event['attributes']['spayed_neutered'] }}</li>
+            <li> Contact Phone Number: {{ event['contact']['phone'] }}</li>
+            <li> Contact Email: {{ event['contact']['email'] }}</li>
+            <li> <img src={{ event['photos'][0]['large'] }} width="200" height="200"></li>
+          </ul>
+          <style> li {
+            display: inline-table
+
+          }
+
+
+          </style>
+            <!-- <p> 
               <a href="{{ event['url'] }}">
                 {{event['name']}}
               </a> 
-            </p>
+            </p> -->
               
-            <img src={{ event['photos'][0]['large'] }} width="200" height="200">
-            
+            <!-- <img src={{ event['photos'][0]['large'] }} width="200" height="200">
+<!--             
                 <div class="row">
-                  <div class="col-1">
+                  <div class="col-1"> -->
            
               
             <form action="/search_dogs/favorite" method="POST">
@@ -34,9 +49,13 @@
               <input type="text" name="phone_number" value="{{ event['contact']['phone'] }}" hidden>
               <input type="text" name="url" value="{{ event['url'] }}" hidden>
               <input type="text" name="organization_animal_id" value="{{ event['organization_animal_id'] }}" hidden>
-              <input value= {{ event['name']}}>
+              <!-- <input value= {{ event['name']}}> -->
          
               <button id="myfav" type="submit"> Add to Favorites </button>
+              <style> button {
+                position:center;
+              }
+              </style>
                     <!-- Add a form, 'add to favorite' is the submit button form consists inputelement, values are the data from the api (event) hidden attribute to hide the form when submit i can access value from server
                     1 create a form and see if i can access data of selected dog  -->
            
