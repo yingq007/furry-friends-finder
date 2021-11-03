@@ -194,7 +194,7 @@ def search_for_dogs():
     result={'dogs':[]}
 
     if 'animals' not in data:
-        flash(f" There are no dogs match your search, Please try again!")
+        flash(f"There are no dogs match your search, Please try again!")
         return render_template("search.html",breed_types_global=breed_types_global)    
     for dog in data['animals']:
         if dog['photos']:

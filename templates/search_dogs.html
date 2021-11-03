@@ -4,10 +4,18 @@
 
 {% block body %}
 
+<h1>Dog Search Result</h1>
 
-        <div id="dog-search-result">
-          <h2>Dog Search Results</h2>
-          {% for event in result['dogs'] %}
+<style> h2 {
+  font-size: large;
+  text-align: center;}
+</style>
+
+    <div class="container" id="dog-search-result" href="/static/mystyle.css">
+      <link rel="stylesheet" href="/static/mystyle.css">
+
+      {% for event in result['dogs'] %}
+        <div id="name-card" href="/static/mystyle.css">
           <ul style="list-style-type:none;" class="dog-list list-group">
             <li> Name: {{ event['name'] }}</li>
             <li> Age: {{ event['age'] }}</li>
@@ -16,27 +24,8 @@
             <li> Sparyed or Neutered: {{ event['attributes']['spayed_neutered'] }}</li>
             <li> Contact Phone Number: {{ event['contact']['phone'] }}</li>
             <li> Contact Email: {{ event['contact']['email'] }}</li>
-            <li> <img src={{ event['photos'][0]['large'] }} width="200" height="200"></li>
-          </ul>
-          <style> li {
-            display: inline-table
-
-          }
-
-
-          </style>
-            <!-- <p> 
-              <a href="{{ event['url'] }}">
-                {{event['name']}}
-              </a> 
-            </p> -->
-              
-            <!-- <img src={{ event['photos'][0]['large'] }} width="200" height="200">
-<!--             
-                <div class="row">
-                  <div class="col-1"> -->
-           
-              
+            <li> <img src={{ event['photos'][0]['large'] }} width="330" height="280"></li>
+            <li> Petfinder URL: <a href ="{{ event['url'] }}">Click Here</a></li>   
             <form action="/search_dogs/favorite" method="POST">
               <input type="text" name="animal_name" value="{{ event['name'] }}" hidden>
               <input type="text" name="animal_description" value="{{ event['description'] }}" hidden>
@@ -52,19 +41,32 @@
               <!-- <input value= {{ event['name']}}> -->
          
               <button id="myfav" type="submit"> Add to Favorites </button>
-              <style> button {
-                position:center;
+              <style> button{
+                font-size: 25px;
+                margin-top: 5px;
+                margin-bottom: 15px;
+                background-color: rgb(173, 105, 125);
+                color: white;
+                box-shadow: rgba(255, 99, 71, 0.301);
               }
               </style>
-                    <!-- Add a form, 'add to favorite' is the submit button form consists inputelement, values are the data from the api (event) hidden attribute to hide the form when submit i can access value from server
-                    1 create a form and see if i can access data of selected dog  -->
            
-            </form>
-           
-            {% endfor %}
+            </form>           
           </ul>
+          <!-- <style> ul {
+            display:inline-table;
+            font-size: large;
+            color:rgb(16, 34, 49);
+            margin-top: 5px;
+            margin-bottom: 5px;
+            text-align: center;
+
+          }
+          </style> -->
         </div>
-      </div>
+      {% endfor %}
     </div>
-  </div>
+      <!-- </div>
+    </div>
+  </div> -->
 {% endblock %}
