@@ -5,8 +5,9 @@ function showFavorite(evt) {
     let user = res.user;
     // let css_style_line = "<link rel='stylesheet' href='/static/mystyle.css'>";
     // $('#favorite_dogs').append(css_style_line);
-    let container_div = "<div class='container'>";
-    $('#favorite_dogs').append(container_div);
+    let container_div = "<div class='container'>"; 
+    
+    $('#favorite_dogs').empty().append(container_div);
     for (let i=0; i < fav.length; i++) {
       current_fav = fav[i]
 
@@ -66,9 +67,10 @@ $("#email").css("font-size", "20px");
 //    $('#email').text(user.email);
 //   }
 // }
+$(document).ready(showFavorite)
 $('#get-favorite-button').on('click', showFavorite);
-$("#get-favorite-button").css("margin-left", "576px");
-$("#get-favorite-button").css("font-size", "25px");
+$("#get-favorite-button").css("margin-left", "619px");
+$("#get-favorite-button").css("font-size", "20px");
 $("#get-favorite-button").css("margin-top", "20px");
-$("#get-favorite-button").css("background-color", "tomato");
-$("#get-favorite-button").css("color", "white");
+$("#get-favorite-button").css("background-color", "white");
+$("#get-favorite-button").css("color", "blue");
