@@ -59,34 +59,6 @@ class Animal(db.Model):
         return f'<Animal animal_id={self.animal_id} animal_name={self.animal_name} animal_description={self.animal_description} spayed_neutered={self.spayed_neutered} age={self.age} gender={self.gender} primary_breed={self.primary_breed} email={self.email} phone_number={self.phone_number} url={self.url} photo={self.photo} organization_animal_id={self.organization_animal_id}>'
 
 
-# class Breed(db.Model):
-#     "Data Model for breed"
-
-#     __tablename__ = "breeds"
-
-#     breed_id = db.Column(db.Integer, primary_key=True)
-#     breed = db.Column(db.String(25))
-
-#     # animals = db.relationship('Animal', backref = "breeds")
-
-#     def __repr__(self): 
-#         return f'<Breed breed_id={self.breed_id} breed={self.breed}>'
-
-
-# class Animal_type(db.Model):
-#     "Data Model for animal type"
-
-#     __tablename__ = "animal_types"
-
-#     animal_type_id = db.Column(db.Integer, primary_key= True)
-#     animal_type = db.Column(db.String(25))
-
-#     # animals = db.relationship('Animal', backref= "animal_types")
-
-#     def __repr__(self): 
-#         return f'<Animal_type animal_type_id={self.animal_type_id}>'
-
-
 def connect_to_db(flask_app, db_uri="postgresql:///furry_friends_finder", echo=True):
     flask_app.config["SQLALCHEMY_DATABASE_URI"] = db_uri
     flask_app.config["SQLALCHEMY_ECHO"] = echo

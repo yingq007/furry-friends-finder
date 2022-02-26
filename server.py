@@ -61,11 +61,6 @@ def search_for_breeds():
         'type': breed_type
     }
 
-    # data = api_token.get_data(url, token, payload)
-    
-    # breed_types ={'breeds':[]}
-    # for breednames in data['breeds']:
-    #     breed_types['breeds'].append(breednames['name'])
     breed_types=breed_types_global
     return breed_types
     

@@ -55,10 +55,6 @@ def create_animal(animal_name, animal_description, spayed_neutered, age, gender,
     return animal
 
 
-# def get_animals():
-#     """Return all animals."""
-
-#     return Animal.query.all()
 
 
 def get_animal_by_id(animal_id):
@@ -92,39 +88,7 @@ def get_users_favorites_by_user_id(user_id):
     
     return Favorite.query.filter(Favorite.user_id == user_id).all()
 
-  
 
-
-# def create_animal_type(animal_type_id, animal_type):
-#     """Create and return a new animal_type."""
-
-#     animal_type = Animal_type(animal_type_id=animal_type_id, animal_type=animal_type)
-
-#     db.session.add(animal_type)
-#     db.session.commit()
-
-#     return animal_type
-
-# def get_animal_type_by_id(animal_type_id):
-#     """Return a animal type by primary key."""
-
-#     return Animal_type.query.get(animal_type_id)
-
-# def create_breed(breed_id, breed):
-#     """Create and return a new breed."""
-
-#     breed = Breed(breed_id=breed_id, breed=breed)
-
-#     db.session.add(breed)
-#     db.session.commit()
-
-#     return breed
-
-
-# def get_breed_by_id(breed_id):
-#     """Return a breed by primary key."""
-
-#     return Breed.query.get(breed_id)
 
 
 
